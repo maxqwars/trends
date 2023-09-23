@@ -1,0 +1,144 @@
+//
+// ORM
+//
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//
+// Enums
+//
+
+enum COMMENTS_SOURCE {
+  OBSERVER
+  CRAWLER
+}
+
+enum VK_PUB_TYPE {
+  USER
+  GROUP
+}
+
+model Trend {
+  id                      Int                       @id @default(autoincrement())
+  name                    String
+  enabled                 Boolean                   @default(true)
+  createdAt               DateTime                  @default(now())
+  Trend2IncludeKeyword    TrendIncludeKeyword[]
+  Trend2ExcludeKeyword    TrendExcludeKeyword[]
+  TrendAssociateVkComment TrendAssociateVkComment[]
+}
+
+model Keyword {
+  id                        String                      @id
+  raw                       String
+  Trend2IncludeKeyword      TrendIncludeKeyword[]
+  Trend2ExcludeKeyword      TrendExcludeKeyword[]
+  KeywordAssociateVkComment KeywordAssociateVkComment[]
+}
+
+model TrendIncludeKeyword {
+  id        Int    @id @default(autoincrement())
+  keywordId String
+  trendId   Int
+
+  keyword Keyword @relation(fields: [keywordId], references: [id])
+  trend   Trend   @relation(fields: [trendId], references: [id])
+}
+
+model TrendExcludeKeyword {
+  id        Int    @id @default(autoincrement())
+  keywordId String
+  trendId   Int
+
+  keyword Keyword @relation(fields: [keywordId], references: [id])
+  trend   Trend   @relation(fields: [trendId], references: [id])
+}
+
+model UserVK {
+  id                Int      @id
+  profilePictureUrl String
+  firstName         String
+  lastName          String
+  domain            String
+  note              String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @default(now())
+
+  comments                 CommentVK[]
+  UserAndPublicVKAssociate UserAndPublicVKAssociate[]
+}
+
+model PublicVK {
+  id                       Int                        @id
+  profilePictureUrl        String
+  name                     String
+  domain                   String
+  type                     VK_PUB_TYPE
+  updatedAt                DateTime                   @default(now())
+  comments                 CommentVK[]
+  UserAndPublicVKAssociate UserAndPublicVKAssociate[]
+}
+
+model CommentVK {
+  uuid      String          @id @default(uuid())
+  id        Int
+  date      Int
+  fromId    Int
+  ownerId   Int
+  text      String
+  source    COMMENTS_SOURCE
+  createdAt DateTime        @default(now())
+  user      UserVK?         @relation(fields: [fromId], references: [id])
+  public    PublicVK?       @relation(fields: [ownerId], references: [id])
+
+  TrendAssociateVkComment   TrendAssociateVkComment[]
+  KeywordAssociateVkComment KeywordAssociateVkComment[]
+}
+
+//
+// Many-to-many relations
+//
+
+model TrendAssociateVkComment {
+  id          Int    @id @default(autoincrement())
+  commentUuid String
+  trendId     Int
+
+  trend   Trend     @relation(fields: [trendId], references: [id])
+  comment CommentVK @relation(fields: [commentUuid], references: [uuid])
+}
+
+model KeywordAssociateVkComment {
+  id          Int    @id @default(autoincrement())
+  keywordId   String
+  commentUuid String
+
+  keyword Keyword   @relation(fields: [keywordId], references: [id])
+  comment CommentVK @relation(fields: [commentUuid], references: [uuid])
+}
+
+model UserAndPublicVKAssociate {
+
+  id Int @id @default(autoincrement())
+
+  publicId Int
+  userId   Int
+
+  public PublicVK @relation(fields: [publicId], references: [id])
+  user   UserVK   @relation(fields: [userId], references: [id])
+}
+
+model SystemUser {
+  id Int @id @default(autoincrement())
+}
+
+model SystemSession {
+  id Int @id @default(autoincrement())
+}

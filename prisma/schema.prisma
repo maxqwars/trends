@@ -1,0 +1,167 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum COMMENTS_SOURCE {
+  OBSERVER
+  CRAWLER
+}
+
+enum VK_TARGET_TYPE {
+  USER
+  GROUP
+}
+
+// Shared models
+
+model Trend {
+  id                       Int                        @id @default(autoincrement())
+  name                     String
+  isActive                 Boolean                    @default(true)
+  createdAt                DateTime                   @default(now())
+  updatedAt                DateTime                   @default(now())
+  TrendIncludeKeyword      TrendIncludeKeyword[]
+  TrendExcludeKeyword      TrendExcludeKeyword[]
+  VkCommentAssociatedTrend VkCommentAssociatedTrend[]
+  VkTargetAssociatedTrend  VkTargetAssociatedTrend[]
+  VkUserAssociatedTrend    VkUserAssociatedTrend[]
+}
+
+model Keyword {
+  uuid                       String                       @id
+  word                       String
+  TrendIncludeKeyword        TrendIncludeKeyword[]
+  TrendExcludeKeyword        TrendExcludeKeyword[]
+  VkCommentAssociatedKeyword VkCommentAssociatedKeyword[]
+  VkTargetAssociatedKeyword  VkTargetAssociatedKeyword[]
+  VkUserAssociatedKeyword    VkUserAssociatedKeyword[]
+}
+
+model TrendIncludeKeyword {
+  id          Int     @id @default(autoincrement())
+  keyword     Keyword @relation(fields: [keywordUuid], references: [uuid])
+  trend       Trend   @relation(fields: [trendId], references: [id])
+  keywordUuid String
+  trendId     Int
+}
+
+model TrendExcludeKeyword {
+  id          Int     @id @default(autoincrement())
+  keyword     Keyword @relation(fields: [keywordUuid], references: [uuid])
+  trend       Trend   @relation(fields: [trendId], references: [id])
+  keywordUuid String
+  trendId     Int
+}
+
+// VK models
+
+model VkUser {
+  id                      Int                       @id
+  profilePictureUrl       String
+  firstName               String
+  lastName                String
+  domain                  String
+  note                    String?
+  createdAt               DateTime                  @default(now())
+  updatedAt               DateTime                  @default(now())
+  comments                VkComment[]
+  VkTargetAssociatedUser  VkTargetAssociatedUser[]
+  VkUserAssociatedKeyword VkUserAssociatedKeyword[]
+  VkUserAssociatedTrend   VkUserAssociatedTrend[]
+}
+
+model VkTarget {
+  id                        Int                         @id
+  profilePictureUrl         String
+  name                      String
+  domain                    String
+  type                      VK_TARGET_TYPE
+  observable                Boolean                     @default(true)
+  updatedAt                 DateTime                    @default(now())
+  comments                  VkComment[]
+  VkTargetAssociatedUser    VkTargetAssociatedUser[]
+  VkTargetAssociatedKeyword VkTargetAssociatedKeyword[]
+  VkTargetAssociatedTrend   VkTargetAssociatedTrend[]
+}
+
+model VkComment {
+  uuid                       String                       @id @default(uuid())
+  id                         Int
+  date                       Int
+  text                       String
+  source                     COMMENTS_SOURCE
+  createdAt                  DateTime                     @default(now())
+  VkUser                     VkUser?                      @relation(fields: [vkUserId], references: [id])
+  vkUserId                   Int?
+  VkTarget                   VkTarget?                    @relation(fields: [vkTargetId], references: [id])
+  vkTargetId                 Int?
+  VkCommentAssociatedKeyword VkCommentAssociatedKeyword[]
+  VkCommentAssociatedTrend   VkCommentAssociatedTrend[]
+}
+
+// Comments associations
+
+model VkCommentAssociatedKeyword {
+  id            Int       @id @default(autoincrement())
+  keyword       Keyword   @relation(fields: [keywordUuid], references: [uuid])
+  comment       VkComment @relation(fields: [vkCommentUuid], references: [uuid])
+  keywordUuid   String
+  vkCommentUuid String
+}
+
+model VkCommentAssociatedTrend {
+  id            Int       @id @default(autoincrement())
+  trend         Trend     @relation(fields: [trendId], references: [id])
+  comment       VkComment @relation(fields: [vkCommentUuid], references: [uuid])
+  trendId       Int
+  vkCommentUuid String
+}
+
+// Targets associations
+
+model VkTargetAssociatedUser {
+  id         Int      @id @default(autoincrement())
+  user       VkUser   @relation(fields: [vkUserId], references: [id])
+  target     VkTarget @relation(fields: [vkTargetId], references: [id])
+  vkUserId   Int
+  vkTargetId Int
+}
+
+model VkTargetAssociatedKeyword {
+  id          Int      @id @default(autoincrement())
+  target      VkTarget @relation(fields: [vkTargetId], references: [id])
+  keyword     Keyword  @relation(fields: [keywordUuid], references: [uuid])
+  vkTargetId  Int
+  keywordUuid String
+}
+
+model VkTargetAssociatedTrend {
+  id         Int      @id @default(autoincrement())
+  target     VkTarget @relation(fields: [vkTargetId], references: [id])
+  trend      Trend    @relation(fields: [trendId], references: [id])
+  vkTargetId Int
+  trendId    Int
+}
+
+// User associations
+
+model VkUserAssociatedKeyword {
+  id          Int     @id @default(autoincrement())
+  user        VkUser  @relation(fields: [vkUserId], references: [id])
+  keyword     Keyword @relation(fields: [keywordUuid], references: [uuid])
+  vkUserId    Int
+  keywordUuid String
+}
+
+model VkUserAssociatedTrend {
+  id       Int    @id @default(autoincrement())
+  user     VkUser @relation(fields: [vkUserId], references: [id])
+  trend    Trend  @relation(fields: [trendId], references: [id])
+  vkUserId Int
+  trendId  Int
+}
