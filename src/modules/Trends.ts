@@ -11,6 +11,8 @@ export interface ITrends {
     includeKeywords: string[],
     excludeKeywords: string[]
   ): Promise<Trend>;
+
+  remove(name: string): Promise<void>
 }
 
 @injectable()
@@ -25,6 +27,10 @@ export class Trends implements ITrends {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+  
+  async remove(name: string): Promise<void> {
+    throw new Error("Method not implemented.");
   }
 
   async create(

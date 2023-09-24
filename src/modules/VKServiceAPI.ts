@@ -11,31 +11,33 @@ import {
 } from "vk-io/lib/api/schemas/responses";
 import { DI_INDX } from "../constants/DI_INDX";
 
-enum VK_OBJECT_TYPE {
+export enum VK_OBJECT_TYPE {
   USER = "USER",
   GROUP = "GROUP"
 }
 
 export interface IVKServiceAPI {
-  extractDomainFromUrl(url: string): string | null;
-  createCommentDirectUrl(ownerId: number, commentId: number): string | null;
-  postCommentsCount(ownerId: number, postId: number): Promise<number | null>;
-  wallItemsCount(ownerId: number): Promise<number | null>;
   getId(url: string): Promise<{ id: number; type: VK_OBJECT_TYPE } | null>;
-  userInfo(id: number): Promise<UsersGetResponse | null>;
-  publicInfo(id: number): Promise<GroupsGetByIdObjectLegacyResponse | null>;
-  wallReader(
-    ownerId: number,
-    count: number,
-    depth: number
-  ): Generator<Promise<WallGetResponse>, void, unknown>;
-  commentsReader(): Generator<Promise<WallGetCommentResponse>, void, unknown>;
-  publicMembersReader(
-    id: number,
-    count: number
-  ): Generator<Promise<GroupsGetMembersResponse>, void, unknown>;
-  publicMembersCount(id: number): Promise<number>;
-  getUsersInfo(ids: number[]): Promise<UsersGetResponse>;
+  extractDomainFromUrl(url: string): string | null;
+  getGroupsInfo(id: number[]): Promise<GroupsGetByIdObjectLegacyResponse>;
+  getUsersInfo(id: number[]): Promise<UsersGetResponse>;
+  // createCommentDirectUrl(ownerId: number, commentId: number): string | null;
+  // postCommentsCount(ownerId: number, postId: number): Promise<number | null>;
+  // wallItemsCount(ownerId: number): Promise<number | null>;
+  //   userInfo(id: number): Promise<UsersGetResponse | null>;
+  //   publicInfo(id: number): Promise<GroupsGetByIdObjectLegacyResponse | null>;
+  //   wallReader(
+  //     ownerId: number,
+  //     count: number,
+  //     depth: number
+  //   ): Generator<Promise<WallGetResponse>, void, unknown>;
+  //   commentsReader(): Generator<Promise<WallGetCommentResponse>, void, unknown>;
+  //   publicMembersReader(
+  //     id: number,
+  //     count: number
+  //   ): Generator<Promise<GroupsGetMembersResponse>, void, unknown>;
+  //   publicMembersCount(id: number): Promise<number>;
+  //   getUsersInfo(ids: number[]): Promise<UsersGetResponse>;
 }
 
 @injectable()
@@ -55,58 +57,71 @@ export class VKServiceAPI implements IVKServiceAPI {
     this._api = vk.api;
   }
 
+  async getUsersInfo(id: number[]): Promise<UsersGetResponse> {
+    return await this._api.users.get({
+      user_ids: [id],
+      fields: ["domain", "photo_200", "status"]
+    });
+  }
+
+  async getGroupsInfo(
+    ids: number[]
+  ): Promise<GroupsGetByIdObjectLegacyResponse> {
+    const negativeIds = ids.map((id) => Math.abs(id));
+
+    const data = await this._api.groups.getById({
+      group_ids: negativeIds
+    });
+
+    return data;
+  }
+
   extractDomainFromUrl(url: string): string {
-    throw new Error("Method not implemented.");
+    return url.replace(new RegExp(/(https:\/\/vk.com\/)/gm), "");
   }
 
-  createCommentDirectUrl(ownerId: number, commentId: number): string {
-    throw new Error("Method not implemented.");
+  private async _getGroupId(
+    domain: string
+  ): Promise<GroupsGetByIdObjectLegacyResponse | null> {
+    try {
+      const response = await this._api.groups.getById({
+        group_ids: [domain]
+      });
+
+      return response.length ? response : null;
+    } catch (e) {
+      return null;
+    }
   }
 
-  postCommentsCount(ownerId: number, postId: number): Promise<number> {
-    throw new Error("Method not implemented.");
+  private async _getUserId(domain: string): Promise<UsersGetResponse | null> {
+    const response = await this._api.users.get({
+      user_ids: [domain]
+    });
+    return response.length ? response : null;
   }
 
-  wallItemsCount(ownerId: number): Promise<number> {
-    throw new Error("Method not implemented.");
-  }
+  async getId(url: string): Promise<{ id: number; type: VK_OBJECT_TYPE }> {
+    this._logger.debug(`Search VK object under URL: ${url}`);
 
-  getId(url: string): Promise<{ id: number; type: VK_OBJECT_TYPE }> {
-    throw new Error("Method not implemented.");
-  }
+    const shortName = this.extractDomainFromUrl(url);
+    const usrId = await this._getUserId(shortName);
+    const grpId = await this._getGroupId(shortName);
 
-  userInfo(id: number): Promise<UsersGetResponse> {
-    throw new Error("Method not implemented.");
-  }
+    if (usrId) {
+      return {
+        id: usrId[0].id,
+        type: VK_OBJECT_TYPE.USER
+      };
+    }
 
-  publicInfo(id: number): Promise<GroupsGetByIdObjectLegacyResponse> {
-    throw new Error("Method not implemented.");
-  }
+    if (grpId) {
+      return {
+        id: grpId[0].id,
+        type: VK_OBJECT_TYPE.GROUP
+      };
+    }
 
-  wallReader(
-    ownerId: number,
-    count: number,
-    depth: number
-  ): Generator<Promise<WallGetResponse>, void, unknown> {
-    throw new Error("Method not implemented.");
-  }
-
-  commentsReader(): Generator<Promise<WallGetCommentResponse>, void, unknown> {
-    throw new Error("Method not implemented.");
-  }
-
-  publicMembersReader(
-    id: number,
-    count: number
-  ): Generator<Promise<GroupsGetMembersResponse>, void, unknown> {
-    throw new Error("Method not implemented.");
-  }
-
-  publicMembersCount(id: number): Promise<number> {
-    throw new Error("Method not implemented.");
-  }
-
-  getUsersInfo(ids: number[]): Promise<UsersGetResponse> {
-    throw new Error("Method not implemented.");
+    return null;
   }
 }

@@ -12,15 +12,7 @@ import { ITextTools } from "./TextTools";
 export interface IKeywords {
   create(word: string): Promise<Keyword>;
   createMany(keywords: string[]): Promise<Keyword[]>;
-  delete(): void;
-  getAssociatedTrends(): void;
-  getAssociatedVKComments(): void;
-  getAssociatedVKTargets(): void;
-  getAssociatedVKUser(): void;
 
-  associateWithVKComment(): void;
-  associateWithVKTarget(): void;
-  associateWithVKUser(): void;
   associateWithTrendIncludeKeyword(
     trendId: number,
     keywordUuid: string
@@ -30,6 +22,12 @@ export interface IKeywords {
     trendId: number,
     keywordUuid: string
   ): Promise<TrendExcludeKeyword>;
+
+  getTrendAssociatedKeywordsCount(trendId: number): Promise<number>;
+
+  removeAssociatedWithTrendKeywords(trendId: number): Promise<number>;
+
+  removeTrendAssociations(trendId: number): Promise<void>;
 }
 
 @injectable()
@@ -37,7 +35,23 @@ export class Keywords implements IKeywords {
   @inject(DI_INDX.TextTools)
   private readonly _textTools: ITextTools;
 
-  private readonly _client = new PrismaClient();
+  private readonly _client: PrismaClient;
+
+  constructor() {
+    this._client = new PrismaClient();
+  }
+
+  async getTrendAssociatedKeywordsCount(trendId: number): Promise<number> {
+    throw new Error("Method not implemented.");
+  }
+
+  async removeAssociatedWithTrendKeywords(trendId: number): Promise<number> {
+    throw new Error("Method not implemented.");
+  }
+
+  async removeTrendAssociations(trendId: number): Promise<void> {
+    throw new Error("Method not implemented.");
+  }
 
   async associateWithTrendExcludeKeyword(
     trendId: number,
@@ -106,30 +120,5 @@ export class Keywords implements IKeywords {
         word
       }
     });
-  }
-
-  delete(): void {
-    throw new Error("Method not implemented.");
-  }
-  getAssociatedTrends(): void {
-    throw new Error("Method not implemented.");
-  }
-  getAssociatedVKComments(): void {
-    throw new Error("Method not implemented.");
-  }
-  getAssociatedVKTargets(): void {
-    throw new Error("Method not implemented.");
-  }
-  getAssociatedVKUser(): void {
-    throw new Error("Method not implemented.");
-  }
-  associateWithVKComment(): void {
-    throw new Error("Method not implemented.");
-  }
-  associateWithVKTarget(): void {
-    throw new Error("Method not implemented.");
-  }
-  associateWithVKUser(): void {
-    throw new Error("Method not implemented.");
   }
 }

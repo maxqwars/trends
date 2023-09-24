@@ -14,4 +14,8 @@ export class TrendsModel {
   ) {
     await this._trends.create(name, includeKeywords, excludeKeywords);
   }
+
+  async remove(name: string) {
+    await this._trends.remove(name)
+  }
 }
