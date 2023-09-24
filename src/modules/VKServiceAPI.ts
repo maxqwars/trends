@@ -32,11 +32,11 @@ export interface IVKServiceAPI {
   //     depth: number
   //   ): Generator<Promise<WallGetResponse>, void, unknown>;
   //   commentsReader(): Generator<Promise<WallGetCommentResponse>, void, unknown>;
-  //   publicMembersReader(
-  //     id: number,
-  //     count: number
-  //   ): Generator<Promise<GroupsGetMembersResponse>, void, unknown>;
-  //   publicMembersCount(id: number): Promise<number>;
+  membersReader(
+    id: number,
+    count: number
+  ): Generator<Promise<GroupsGetMembersResponse>, void, unknown>;
+  membersCount(id: number): Promise<number>;
   //   getUsersInfo(ids: number[]): Promise<UsersGetResponse>;
 }
 
@@ -55,6 +55,43 @@ export class VKServiceAPI implements IVKServiceAPI {
 
     const vk = new VK({ token: this._env.VK_SERVICE_TOKEN });
     this._api = vk.api;
+  }
+
+  *membersReader(
+    id: number,
+    membersCount: number
+  ): Generator<Promise<GroupsGetMembersResponse>, void, unknown> {
+    const defaultCount = 100;
+    let take = defaultCount;
+    let processed = 0;
+    let rest = membersCount;
+
+    while (rest !== 0) {
+      yield this._api.groups.getMembers({
+        group_id: String(id),
+        count: take,
+        offset: processed
+      });
+
+      processed = processed + take;
+      rest = rest - take;
+
+      if (rest < defaultCount) {
+        take = rest;
+      }
+    }
+  }
+
+  async membersCount(id: number): Promise<number> {
+    try {
+      const { count } = await this._api.groups.getMembers({
+        group_id: id + "",
+        count: 0
+      });
+      return count;
+    } catch (e) {
+      return 0;
+    }
   }
 
   async getUsersInfo(id: number[]): Promise<UsersGetResponse> {
