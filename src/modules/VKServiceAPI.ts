@@ -10,6 +10,7 @@ import {
   WallGetResponse
 } from "vk-io/lib/api/schemas/responses";
 import { DI_INDX } from "../constants/DI_INDX";
+import { $Enums, VK_TARGET_TYPE } from "@prisma/client";
 
 export enum VK_OBJECT_TYPE {
   USER = "USER",
@@ -38,6 +39,13 @@ export interface IVKServiceAPI {
   ): Generator<Promise<GroupsGetMembersResponse>, void, unknown>;
   membersCount(id: number): Promise<number>;
   //   getUsersInfo(ids: number[]): Promise<UsersGetResponse>;
+  postsCount(id: number, type: VK_TARGET_TYPE): Promise<number>;
+  createWallReader(
+    id: number,
+    type: VK_TARGET_TYPE,
+    count: number,
+    depth: number
+  ): Generator<Promise<WallGetResponse>, void, unknown>;
 }
 
 @injectable()
@@ -55,6 +63,58 @@ export class VKServiceAPI implements IVKServiceAPI {
 
     const vk = new VK({ token: this._env.VK_SERVICE_TOKEN });
     this._api = vk.api;
+  }
+
+  *createWallReader(
+    id: number,
+    type: VK_TARGET_TYPE,
+    count: number,
+    depth: number
+  ): Generator<Promise<WallGetResponse>, void, unknown> {
+    const owner_id = type === "GROUP" ? Math.abs(id) * -1 : id;
+    const offset = 100;
+    let processed = 0;
+    let rest = depth === -1 ? count : depth;
+
+    while (rest !== 0) {
+      if (rest > offset) {
+        yield this._api.wall.get({
+          owner_id,
+          filter: "all",
+          count: offset,
+          offset: processed
+        });
+
+        processed = processed + offset;
+        rest = rest - offset;
+      }
+
+      if (rest <= offset) {
+        yield this._api.wall.get({
+          owner_id,
+          filter: "all",
+          offset: processed,
+          count: rest
+        });
+
+        processed = processed + rest;
+        rest = 0;
+      }
+
+      this._logger.debug(`WALL_READER: ID: ${id}`);
+      this._logger.debug(`WALL_READER: TYPE: ${type}`);
+      this._logger.debug(`WALL_READER: COUNT: ${count}`);
+      this._logger.debug(`WALL_READER: DEPTH: ${depth}`);
+      this._logger.debug(`WALL_READER: PROC: ${processed}`);
+      this._logger.debug(`WALL_READER: REST: ${rest}`);
+    }
+  }
+
+  async postsCount(id: number, type: $Enums.VK_TARGET_TYPE): Promise<number> {
+    const owner_id = type === "GROUP" ? Math.abs(id) * -1 : id;
+    const { count } = await this._api.wall.get({ count: 0, owner_id });
+
+    return count;
   }
 
   *membersReader(

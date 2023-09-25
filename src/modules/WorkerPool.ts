@@ -5,66 +5,67 @@ import { EventEmitter } from "node:events";
 import { resolve } from "node:path";
 import { Worker } from "node:worker_threads";
 
-export type PoolConfig = {
-  threadsNumber: number;
-  pathToWorkerFile: string;
-  poolName: string;
+type PoolConfigurationType = {
+  threads: number;
+  worker: string;
+  name: string;
 };
 
-export interface IWorkerPool {
-  threadsCount: number;
-  workersCount: number;
-  freeWorkersCount: number;
+const taskInfo = Symbol("taskInfo");
+const workerFreeEvent = Symbol("workerFreeEvent");
 
-  setup(config: PoolConfig);
-  spawn(): void;
-  execute<T>(data: T, callback);
-  terminate(): void;
-}
+class WorkerPoolTaskInfo extends AsyncResource {
+  private readonly _cb;
 
-const TASK_INFO = Symbol("TASK_INFO");
-const WORKER_FREE_EVENT = Symbol("WORKER_FREE_EVENT");
-
-class WorkerPoolTASK_INFO extends AsyncResource {
-  private readonly callback;
-
-  constructor(callback) {
+  constructor(cb) {
     super("WorkerPoolTaskInfo");
-    this.callback = callback;
+    this._cb = cb;
   }
 
-  done<T>(err, result: T) {
-    this.runInAsyncScope(this.callback, null, err, result);
+  done<T>(error, result: T) {
+    this.runInAsyncScope(this._cb, null, error, result);
     this.emitDestroy();
   }
 }
 
+export interface IWorkerPool {
+  /* Fields */
+  threadsCount: number;
+  workersCount: number;
+  freeWorkersCount: number;
+
+  /* Methods */
+  configure(config: PoolConfigurationType);
+  spawn();
+  close();
+  execute<T>(data: T, cb);
+}
+
 @injectable()
 export class WorkerPool implements IWorkerPool {
-  private _threadsCount = 0;
-  private pathToWorkerFile: string;
-  private poolName: string;
-  private emitter = new EventEmitter();
+  private _threadsCount: number;
+  private _worker: string;
+  private _name: string;
 
-  private workers: Worker[] = [];
-  private freeWorkers: Worker[] = [];
+  private readonly _emitter = new EventEmitter();
 
-  get freeWorkersCount() {
-    return this.freeWorkers.length;
-  }
-
-  get workersCount() {
-    return this.workers.length;
-  }
+  private _workers: Worker[] = [];
+  private _freeWorkers: Worker[] = [];
 
   get threadsCount() {
     return this._threadsCount;
   }
 
-  setup(config: PoolConfig) {
-    this._threadsCount = config.threadsNumber;
-    this.pathToWorkerFile = config.pathToWorkerFile;
-    this.poolName = config.poolName;
+  get workersCount() {
+    return this._workers.length;
+  }
+
+  get freeWorkersCount() {
+    return this._freeWorkers.length;
+  }
+
+  close() {
+    for (const worker of this._workers) worker.terminate();
   }
 
   spawn() {
@@ -73,42 +74,46 @@ export class WorkerPool implements IWorkerPool {
     }
   }
 
-  terminate() {
-    for (const worker of this.workers) worker.terminate();
-  }
-
-  execute<T>(task: T, cb) {
-    if (this.freeWorkers.length === 0) {
-      this.emitter.once(WORKER_FREE_EVENT, () => this.execute(task, cb));
+  execute<T>(data: T, cb) {
+    if (this._freeWorkers.length === 0) {
+      this._emitter.once(workerFreeEvent, () => this.execute<T>(data, cb));
       return;
     }
 
-    const worker = this.freeWorkers.pop();
-    worker[TASK_INFO] = new WorkerPoolTASK_INFO(cb);
-    worker.postMessage(task);
+    const worker = this._freeWorkers.pop();
+    worker[taskInfo] = new WorkerPoolTaskInfo(cb);
+    worker.postMessage(data);
+  }
+
+  configure(config: PoolConfigurationType) {
+    this._threadsCount = config.threads;
+    this._worker = config.worker;
+    this._name = config.name;
   }
 
   private _createWorker() {
-    const worker = new Worker(resolve(this.pathToWorkerFile));
+    const worker = new Worker(resolve(this._worker));
 
     worker.on("message", (result) => {
-      worker[TASK_INFO].done(null, result);
-      worker[TASK_INFO] = null;
-      this.freeWorkers.push(worker);
+      console.log("Worker complete task");
 
-      this.emitter.emit(WORKER_FREE_EVENT);
+      worker[taskInfo].done(null, result);
+      worker[taskInfo] = null;
+
+      this._freeWorkers.push(worker);
+      this._emitter.emit(workerFreeEvent);
     });
 
-    worker.on("error", (err) => {
-      if (worker[TASK_INFO]) worker[TASK_INFO].done(err, null);
-      else this.emitter.emit("error", err);
+    worker.on("error", (error) => {
+      if (worker[taskInfo]) worker[taskInfo].done(error, null);
+      else this._emitter.emit("error", error);
 
-      this.workers.splice(this.workers.indexOf(worker), 1);
+      this._workers.splice(this._workers.indexOf(worker), 1);
       this._createWorker();
     });
 
-    this.workers.push(worker);
-    this.freeWorkers.push(worker);
-    this.emitter.emit(WORKER_FREE_EVENT);
+    this._workers.push(worker);
+    this._freeWorkers.push(worker);
+    this._emitter.emit(workerFreeEvent);
   }
 }

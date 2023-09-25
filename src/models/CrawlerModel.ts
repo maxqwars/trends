@@ -42,6 +42,9 @@ export class CrawlerModel {
         );
 
         for (const membersPromise of membersReader) {
+
+          const registeredIds = null
+
           const { items } = await membersPromise;
           const usersData = await this._vkServiceApi.getUsersInfo(items);
 
@@ -56,7 +59,12 @@ export class CrawlerModel {
               profilePictureUrl: userData.photo_200
             });
 
-            const association = await this._vkTargets.associateUser(id, user.id)
+            const association = await this._vkTargets.associateUser(
+              id,
+              user.id
+            );
+
+            this._logger.info(`Processed and associated user ${user.id}`);
           }
         }
       }

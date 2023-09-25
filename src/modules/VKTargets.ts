@@ -24,6 +24,9 @@ export interface IVKTargets {
     userId: number
   ): Promise<VkTargetAssociatedUser>;
   // TODO: findMany()
+  targetsCount(): Promise<number>;
+
+  reader(take: number, skip: number): Promise<VkTarget>;
 }
 
 @injectable()
@@ -32,6 +35,28 @@ export class VKTargets implements IVKTargets {
 
   public constructor() {
     this._client = new PrismaClient();
+  }
+
+  reader(
+    take: number,
+    skip: number
+  ): Promise<{
+    id: number;
+    profilePictureUrl: string;
+    name: string;
+    domain: string;
+    type: $Enums.VK_TARGET_TYPE;
+    observable: boolean;
+    updatedAt: Date;
+  }> {
+    return this._client.vkTarget.findFirst({
+      take,
+      skip
+    });
+  }
+
+  targetsCount(): Promise<number> {
+    return this._client.vkTarget.count();
   }
 
   async associateUser(

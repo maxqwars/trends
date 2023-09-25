@@ -1,0 +1,2239 @@
+├─ @aashutoshrathi/word-wrap@1.2.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/aashutoshrathi/word-wrap
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@aashutoshrathi/word-wrap
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@aashutoshrathi/word-wrap/LICENSE
+├─ @eslint-community/eslint-utils@4.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/eslint-community/eslint-utils
+│  ├─ publisher: Toru Nagashima
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@eslint-community/eslint-utils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@eslint-community/eslint-utils/LICENSE
+├─ @eslint-community/regexpp@4.8.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/eslint-community/regexpp
+│  ├─ publisher: Toru Nagashima
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@eslint-community/regexpp
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@eslint-community/regexpp/LICENSE
+├─ @eslint/eslintrc@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/eslint/eslintrc
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@eslint/eslintrc
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@eslint/eslintrc/LICENSE
+├─ @eslint/js@8.49.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/eslint/eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@eslint/js
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@eslint/js/LICENSE
+├─ @humanwhocodes/config-array@0.11.11
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/humanwhocodes/config-array
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@humanwhocodes/config-array
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@humanwhocodes/config-array/LICENSE
+├─ @humanwhocodes/module-importer@1.0.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/humanwhocodes/module-importer
+│  ├─ publisher: Nicholas C. Zaks
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@humanwhocodes/module-importer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@humanwhocodes/module-importer/LICENSE
+├─ @humanwhocodes/object-schema@1.2.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/humanwhocodes/object-schema
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@humanwhocodes/object-schema
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@humanwhocodes/object-schema/LICENSE
+├─ @isaacs/cliui@8.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/yargs/cliui
+│  ├─ publisher: Ben Coe
+│  ├─ email: ben@npmjs.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@isaacs/cliui
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@isaacs/cliui/LICENSE.txt
+├─ @jridgewell/gen-mapping@0.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jridgewell/gen-mapping
+│  ├─ publisher: Justin Ridgewell
+│  ├─ email: justin@ridgewell.name
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/gen-mapping
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/gen-mapping/LICENSE
+├─ @jridgewell/resolve-uri@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jridgewell/resolve-uri
+│  ├─ publisher: Justin Ridgewell
+│  ├─ email: justin@ridgewell.name
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/resolve-uri
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/resolve-uri/LICENSE
+├─ @jridgewell/set-array@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jridgewell/set-array
+│  ├─ publisher: Justin Ridgewell
+│  ├─ email: justin@ridgewell.name
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/set-array
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/set-array/LICENSE
+├─ @jridgewell/source-map@0.3.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jridgewell/source-map
+│  ├─ publisher: Justin Ridgewell
+│  ├─ email: justin@ridgewell.name
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/source-map
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/source-map/LICENSE
+├─ @jridgewell/sourcemap-codec@1.4.15
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jridgewell/sourcemap-codec
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/sourcemap-codec
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/sourcemap-codec/LICENSE
+├─ @jridgewell/trace-mapping@0.3.19
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jridgewell/trace-mapping
+│  ├─ publisher: Justin Ridgewell
+│  ├─ email: justin@ridgewell.name
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/trace-mapping
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@jridgewell/trace-mapping/LICENSE
+├─ @nodelib/fs.scandir@2.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@nodelib/fs.scandir
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@nodelib/fs.scandir/LICENSE
+├─ @nodelib/fs.stat@2.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@nodelib/fs.stat
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@nodelib/fs.stat/LICENSE
+├─ @nodelib/fs.walk@1.2.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@nodelib/fs.walk
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@nodelib/fs.walk/LICENSE
+├─ @pkgjs/parseargs@0.11.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pkgjs/parseargs
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@pkgjs/parseargs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@pkgjs/parseargs/LICENSE
+├─ @prisma/client@5.2.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/prisma/prisma
+│  ├─ publisher: Tim Suchanek
+│  ├─ email: suchanek@prisma.io
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@prisma/client
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@prisma/client/LICENSE
+├─ @prisma/engines-version@5.2.0-25.2804dc98259d2ea960602aca6b8e7fdc03c1758f
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/prisma/engines-wrapper
+│  ├─ publisher: Tim Suchanek
+│  ├─ email: suchanek@prisma.io
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@prisma/engines-version
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@prisma/engines-version/LICENSE
+├─ @prisma/engines@5.2.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/prisma/prisma
+│  ├─ publisher: Tim Suchanek
+│  ├─ email: suchanek@prisma.io
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@prisma/engines
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@prisma/engines/LICENSE
+├─ @rollup/plugin-auto-install@3.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-auto-install
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-auto-install/README.md
+├─ @rollup/plugin-multi-entry@6.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: rollup
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-multi-entry
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-multi-entry/README.md
+├─ @rollup/plugin-node-resolve@15.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Rich Harris
+│  ├─ email: richard.a.harris@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-node-resolve
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-node-resolve/LICENSE
+├─ @rollup/plugin-replace@5.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Rich Harris
+│  ├─ email: richard.a.harris@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-replace
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-replace/README.md
+├─ @rollup/plugin-terser@0.4.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Peter Placzek
+│  ├─ email: peter.placzek1996@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-terser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-terser/README.md
+├─ @rollup/plugin-typescript@11.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Oskar Segersvärd
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-typescript
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-typescript/README.md
+├─ @rollup/plugin-virtual@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-virtual
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-virtual/README.md
+├─ @rollup/pluginutils@4.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Rich Harris
+│  ├─ email: richard.a.harris@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/pluginutils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/pluginutils/README.md
+├─ @rollup/pluginutils@5.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/plugins
+│  ├─ publisher: Rich Harris
+│  ├─ email: richard.a.harris@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-replace/node_modules/@rollup/pluginutils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-replace/node_modules/@rollup/pluginutils/README.md
+├─ @types/body-parser@1.19.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/body-parser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/body-parser/LICENSE
+├─ @types/connect@3.4.36
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/connect
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/connect/LICENSE
+├─ @types/estree@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/estree
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/estree/LICENSE
+├─ @types/express-serve-static-core@4.17.36
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/express-serve-static-core
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/express-serve-static-core/LICENSE
+├─ @types/express@4.17.17
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/express
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/express/LICENSE
+├─ @types/fs-extra@8.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/fs-extra
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/fs-extra/LICENSE
+├─ @types/glob@7.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/glob/LICENSE
+├─ @types/http-errors@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/http-errors
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/http-errors/LICENSE
+├─ @types/json-schema@7.0.12
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/json-schema
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/json-schema/LICENSE
+├─ @types/mime@1.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/mime
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/mime/LICENSE
+├─ @types/minimatch@5.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/minimatch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/minimatch/LICENSE
+├─ @types/node@20.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/node
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/node/LICENSE
+├─ @types/qs@6.9.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/qs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/qs/LICENSE
+├─ @types/range-parser@1.2.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/range-parser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/range-parser/LICENSE
+├─ @types/resolve@1.20.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/resolve
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/resolve/LICENSE
+├─ @types/semver@7.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/semver
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/semver/LICENSE
+├─ @types/send@0.17.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/send
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/send/LICENSE
+├─ @types/serve-static@1.15.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@types/serve-static
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@types/serve-static/LICENSE
+├─ @typescript-eslint/eslint-plugin@6.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/eslint-plugin
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/eslint-plugin/LICENSE
+├─ @typescript-eslint/parser@6.7.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/parser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/parser/LICENSE
+├─ @typescript-eslint/scope-manager@6.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/scope-manager
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/scope-manager/LICENSE
+├─ @typescript-eslint/type-utils@6.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/type-utils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/type-utils/LICENSE
+├─ @typescript-eslint/types@6.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/types
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/types/LICENSE
+├─ @typescript-eslint/typescript-estree@6.7.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/typescript-estree
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/typescript-estree/LICENSE
+├─ @typescript-eslint/utils@6.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/utils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/utils/LICENSE
+├─ @typescript-eslint/visitor-keys@6.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/visitor-keys
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@typescript-eslint/visitor-keys/LICENSE
+├─ abort-controller@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mysticatea/abort-controller
+│  ├─ publisher: Toru Nagashima
+│  ├─ url: https://github.com/mysticatea
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/abort-controller
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/abort-controller/LICENSE
+├─ accepts@1.3.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/accepts
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/accepts
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/accepts/LICENSE
+├─ acorn-jsx@5.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/acornjs/acorn-jsx
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/acorn-jsx
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/acorn-jsx/LICENSE
+├─ acorn@8.10.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/acornjs/acorn
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/acorn
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/acorn/LICENSE
+├─ ajv@6.12.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ajv-validator/ajv
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ajv
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ajv/LICENSE
+├─ ansi-regex@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ansi-regex
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ansi-regex/license
+├─ ansi-regex@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/string-width/node_modules/ansi-regex
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/string-width/node_modules/ansi-regex/license
+├─ ansi-styles@4.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ansi-styles
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ansi-styles/license
+├─ ansi-styles@6.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/wrap-ansi/node_modules/ansi-styles
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/wrap-ansi/node_modules/ansi-styles/license
+├─ argparse@2.0.1
+│  ├─ licenses: Python-2.0
+│  ├─ repository: https://github.com/nodeca/argparse
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/argparse
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/argparse/LICENSE
+├─ array-flatten@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/blakeembrey/array-flatten
+│  ├─ publisher: Blake Embrey
+│  ├─ email: hello@blakeembrey.com
+│  ├─ url: http://blakeembrey.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/array-flatten
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/array-flatten/LICENSE
+├─ array-union@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/array-union
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/array-union
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/array-union/license
+├─ balanced-match@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/balanced-match
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/balanced-match
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/balanced-match/LICENSE.md
+├─ body-parser@1.20.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/body-parser
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express/node_modules/body-parser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express/node_modules/body-parser/LICENSE
+├─ body-parser@1.20.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/body-parser
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/body-parser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/body-parser/LICENSE
+├─ brace-expansion@1.1.11
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/brace-expansion
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/brace-expansion
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/brace-expansion/LICENSE
+├─ brace-expansion@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/brace-expansion
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/node_modules/brace-expansion
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/node_modules/brace-expansion/LICENSE
+├─ braces@3.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/braces
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/braces
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/braces/LICENSE
+├─ buffer-from@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/LinusU/buffer-from
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/buffer-from
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/buffer-from/LICENSE
+├─ builtin-modules@3.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/builtin-modules
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/builtin-modules
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/builtin-modules/license
+├─ bytes@3.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/bytes.js
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ url: http://tjholowaychuk.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/bytes
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/bytes/LICENSE
+├─ call-bind@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/call-bind
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/call-bind
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/call-bind/LICENSE
+├─ callsites@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/callsites
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/callsites
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/callsites/license
+├─ chalk@4.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/chalk
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/chalk
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/chalk/license
+├─ color-convert@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Qix-/color-convert
+│  ├─ publisher: Heather Arthur
+│  ├─ email: fayearthur@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/color-convert
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/color-convert/LICENSE
+├─ color-name@1.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/colorjs/color-name
+│  ├─ publisher: DY
+│  ├─ email: dfcreative@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/color-name
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/color-name/LICENSE
+├─ colorette@1.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jorgebucaran/colorette
+│  ├─ publisher: Jorge Bucaran
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-copy/node_modules/colorette
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-copy/node_modules/colorette/LICENSE.md
+├─ colorette@2.0.20
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jorgebucaran/colorette
+│  ├─ publisher: Jorge Bucaran
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/colorette
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/colorette/LICENSE.md
+├─ commander@11.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tj/commander.js
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/commander
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/commander/LICENSE
+├─ commander@2.20.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tj/commander.js
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/terser/node_modules/commander
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/terser/node_modules/commander/LICENSE
+├─ commondir@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-commondir
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/commondir
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/commondir/LICENSE
+├─ concat-map@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-concat-map
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/concat-map
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/concat-map/LICENSE
+├─ content-disposition@0.5.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/content-disposition
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/content-disposition
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/content-disposition/LICENSE
+├─ content-type@1.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/content-type
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/content-type
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/content-type/LICENSE
+├─ cookie-signature@1.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-cookie-signature
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@learnboost.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/cookie-signature
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/cookie-signature/Readme.md
+├─ cookie@0.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/cookie
+│  ├─ publisher: Roman Shtylman
+│  ├─ email: shtylman@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/cookie
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/cookie/LICENSE
+├─ cross-fetch@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lquixada/cross-fetch
+│  ├─ publisher: Leonardo Quixada
+│  ├─ email: lquixada@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/cross-fetch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/cross-fetch/LICENSE
+├─ cross-spawn@7.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/moxystudio/node-cross-spawn
+│  ├─ publisher: André Cruz
+│  ├─ email: andre@moxy.studio
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/cross-spawn
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/cross-spawn/LICENSE
+├─ data-uri-to-buffer@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-data-uri-to-buffer
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/data-uri-to-buffer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/data-uri-to-buffer/README.md
+├─ dayjs@1.11.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/iamkun/dayjs
+│  ├─ publisher: iamkun
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/dayjs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/dayjs/LICENSE
+├─ debug@2.6.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/debug
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/body-parser/node_modules/debug
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/body-parser/node_modules/debug/LICENSE
+├─ debug@4.3.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/debug-js/debug
+│  ├─ publisher: Josh Junon
+│  ├─ email: josh.junon@protonmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/debug
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/debug/LICENSE
+├─ deep-is@0.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/thlorenz/deep-is
+│  ├─ publisher: Thorsten Lorenz
+│  ├─ email: thlorenz@gmx.de
+│  ├─ url: http://thlorenz.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/deep-is
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/deep-is/LICENSE
+├─ deepmerge@4.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TehShrike/deepmerge
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/deepmerge
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/deepmerge/license.txt
+├─ depd@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dougwilson/nodejs-depd
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/depd
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/depd/LICENSE
+├─ destroy@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/destroy
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/destroy
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/destroy/LICENSE
+├─ dir-glob@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kevva/dir-glob
+│  ├─ publisher: Kevin Mårtensson
+│  ├─ email: kevinmartensson@gmail.com
+│  ├─ url: github.com/kevva
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/dir-glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/dir-glob/license
+├─ doctrine@3.0.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/eslint/doctrine
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/doctrine
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/doctrine/LICENSE
+├─ dotenv@16.3.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/motdotla/dotenv
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/dotenv
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/dotenv/LICENSE
+├─ eastasianwidth@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/komagata/eastasianwidth
+│  ├─ publisher: Masaki Komagata
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/eastasianwidth
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/eastasianwidth/README.md
+├─ ee-first@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonathanong/ee-first
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ee-first
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ee-first/LICENSE
+├─ emoji-regex@8.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/emoji-regex
+│  ├─ publisher: Mathias Bynens
+│  ├─ url: https://mathiasbynens.be/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/string-width-cjs/node_modules/emoji-regex
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/string-width-cjs/node_modules/emoji-regex/LICENSE-MIT.txt
+├─ emoji-regex@9.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/emoji-regex
+│  ├─ publisher: Mathias Bynens
+│  ├─ url: https://mathiasbynens.be/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/emoji-regex
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/emoji-regex/LICENSE-MIT.txt
+├─ encodeurl@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/encodeurl
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/encodeurl
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/encodeurl/LICENSE
+├─ escape-html@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/escape-html
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/escape-html
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/escape-html/LICENSE
+├─ escape-string-regexp@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/escape-string-regexp
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/escape-string-regexp
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/escape-string-regexp/license
+├─ eslint-scope@7.2.2
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/eslint/eslint-scope
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/eslint-scope
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/eslint-scope/LICENSE
+├─ eslint-visitor-keys@3.4.3
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/eslint/eslint-visitor-keys
+│  ├─ publisher: Toru Nagashima
+│  ├─ url: https://github.com/mysticatea
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/eslint-visitor-keys
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/eslint-visitor-keys/LICENSE
+├─ eslint@8.49.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/eslint/eslint
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ email: nicholas+npm@nczconsulting.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/eslint
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/eslint/LICENSE
+├─ espree@9.6.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/eslint/espree
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ email: nicholas+npm@nczconsulting.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/espree
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/espree/LICENSE
+├─ esquery@1.5.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/estools/esquery
+│  ├─ publisher: Joel Feenstra
+│  ├─ email: jrfeenst+esquery@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/esquery
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/esquery/license.txt
+├─ esrecurse@4.3.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/estools/esrecurse
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/esrecurse
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/esrecurse/README.md
+├─ estraverse@5.3.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/estools/estraverse
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/estraverse
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/estraverse/LICENSE.BSD
+├─ estree-walker@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Rich-Harris/estree-walker
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/estree-walker
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/estree-walker/LICENSE
+├─ esutils@2.0.3
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/estools/esutils
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/esutils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/esutils/LICENSE.BSD
+├─ etag@1.8.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/etag
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/etag
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/etag/LICENSE
+├─ event-target-shim@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mysticatea/event-target-shim
+│  ├─ publisher: Toru Nagashima
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/event-target-shim
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/event-target-shim/LICENSE
+├─ express-handlebars@7.1.2
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/express-handlebars/express-handlebars
+│  ├─ publisher: Eric Ferraiuolo
+│  ├─ email: eferraiuolo@gmail.com
+│  ├─ url: http://ericf.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express-handlebars
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/LICENSE
+├─ express@4.18.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/express
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express/LICENSE
+├─ fast-deep-equal@3.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/fast-deep-equal
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fast-deep-equal
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fast-deep-equal/LICENSE
+├─ fast-glob@3.2.12
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mrmlnc/fast-glob
+│  ├─ publisher: Denis Malinochkin
+│  ├─ url: https://mrmlnc.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-multi-input/node_modules/fast-glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-multi-input/node_modules/fast-glob/LICENSE
+├─ fast-glob@3.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mrmlnc/fast-glob
+│  ├─ publisher: Denis Malinochkin
+│  ├─ url: https://mrmlnc.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fast-glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fast-glob/LICENSE
+├─ fast-json-stable-stringify@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/fast-json-stable-stringify
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fast-json-stable-stringify
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fast-json-stable-stringify/LICENSE
+├─ fast-levenshtein@2.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/hiddentao/fast-levenshtein
+│  ├─ publisher: Ramesh Nair
+│  ├─ email: ram@hiddentao.com
+│  ├─ url: http://www.hiddentao.com/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fast-levenshtein
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fast-levenshtein/LICENSE.md
+├─ fastq@1.15.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/mcollina/fastq
+│  ├─ publisher: Matteo Collina
+│  ├─ email: hello@matteocollina.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fastq
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fastq/LICENSE
+├─ fetch-blob@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/node-fetch/fetch-blob
+│  ├─ publisher: Jimmy Wärting
+│  ├─ email: jimmy@warting.se
+│  ├─ url: https://jimmy.warting.se
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fetch-blob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fetch-blob/LICENSE
+├─ file-entry-cache@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/royriojas/file-entry-cache
+│  ├─ publisher: Roy Riojas
+│  ├─ url: http://royriojas.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/file-entry-cache
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/file-entry-cache/LICENSE
+├─ fill-range@7.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/fill-range
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fill-range
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fill-range/LICENSE
+├─ finalhandler@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/finalhandler
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/finalhandler
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/finalhandler/LICENSE
+├─ find-cache-dir@3.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/avajs/find-cache-dir
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/find-cache-dir
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/find-cache-dir/license
+├─ find-up@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/find-up
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/find-up
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/find-up/license
+├─ find-up@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/find-up
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/find-up
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/find-up/license
+├─ flat-cache@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jaredwray/flat-cache
+│  ├─ publisher: Jared Wray
+│  ├─ url: https://jaredwray.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/flat-cache
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/flat-cache/LICENSE
+├─ flatted@3.2.7
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/WebReflection/flatted
+│  ├─ publisher: Andrea Giammarchi
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/flatted
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/flatted/LICENSE
+├─ foreground-child@3.1.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/tapjs/foreground-child
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/foreground-child
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/foreground-child/LICENSE
+├─ form-data-encoder@1.9.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/octet-stream/form-data-encoder
+│  ├─ publisher: Nick K.
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/form-data-encoder
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/form-data-encoder/license
+├─ formdata-node@4.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/octet-stream/form-data
+│  ├─ publisher: Nick K.
+│  ├─ email: io@octetstream.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/formdata-node
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/formdata-node/license
+├─ formdata-polyfill@4.0.10
+│  ├─ licenses: MIT
+│  ├─ repository: git+https://jimmywarting@github.com/jimmywarting/FormData
+│  ├─ publisher: Jimmy Wärting
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/formdata-polyfill
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/formdata-polyfill/LICENSE
+├─ forwarded@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/forwarded
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/forwarded
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/forwarded/LICENSE
+├─ fresh@0.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/fresh
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ url: http://tjholowaychuk.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fresh
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fresh/LICENSE
+├─ fs-extra@10.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jprichardson/node-fs-extra
+│  ├─ publisher: JP Richardson
+│  ├─ email: jprichardson@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/node_modules/fs-extra
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/node_modules/fs-extra/LICENSE
+├─ fs-extra@8.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jprichardson/node-fs-extra
+│  ├─ publisher: JP Richardson
+│  ├─ email: jprichardson@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fs-extra
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fs-extra/LICENSE
+├─ fs.realpath@1.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/fs.realpath
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fs.realpath
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fs.realpath/LICENSE
+├─ function-bind@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Raynos/function-bind
+│  ├─ publisher: Raynos
+│  ├─ email: raynos2@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/function-bind
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/function-bind/LICENSE
+├─ gen-readlines@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/neurosnap/gen-readlines
+│  ├─ publisher: Eric Bower
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/gen-readlines
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/gen-readlines/LICENSE.md
+├─ get-intrinsic@1.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/get-intrinsic
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/get-intrinsic
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/get-intrinsic/LICENSE
+├─ glob-parent@5.1.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/gulpjs/glob-parent
+│  ├─ publisher: Gulp Team
+│  ├─ email: team@gulpjs.com
+│  ├─ url: https://gulpjs.com/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fast-glob/node_modules/glob-parent
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fast-glob/node_modules/glob-parent/LICENSE
+├─ glob-parent@6.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/gulpjs/glob-parent
+│  ├─ publisher: Gulp Team
+│  ├─ email: team@gulpjs.com
+│  ├─ url: https://gulpjs.com/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/glob-parent
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/glob-parent/LICENSE
+├─ glob@10.3.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: https://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/node_modules/glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/node_modules/glob/LICENSE
+├─ glob@7.2.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/glob/LICENSE
+├─ globals@13.21.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/globals
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/globals
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/globals/license
+├─ globby@10.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/globby
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-copy/node_modules/globby
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-copy/node_modules/globby/license
+├─ globby@11.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/globby
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/globby
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/globby/license
+├─ graceful-fs@4.2.11
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-graceful-fs
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/graceful-fs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/graceful-fs/LICENSE
+├─ graphemer@1.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/flmnt/graphemer
+│  ├─ publisher: Matt Davies
+│  ├─ email: matt@filament.so
+│  ├─ url: https://github.com/mattpauldavies
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/graphemer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/graphemer/LICENSE
+├─ handlebars@4.7.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/handlebars-lang/handlebars.js
+│  ├─ publisher: Yehuda Katz
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/handlebars
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/handlebars/LICENSE
+├─ has-flag@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-flag
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/has-flag
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/has-flag/license
+├─ has-proto@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/has-proto
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/has-proto
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/has-proto/LICENSE
+├─ has-symbols@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/has-symbols
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ url: http://ljharb.codes
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/has-symbols
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/has-symbols/LICENSE
+├─ has@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tarruda/has
+│  ├─ publisher: Thiago de Arruda
+│  ├─ email: tpadilha84@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/has
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/has/LICENSE-MIT
+├─ http-errors@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/http-errors
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/http-errors
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/http-errors/LICENSE
+├─ iconv-lite@0.4.24
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ashtuchkin/iconv-lite
+│  ├─ publisher: Alexander Shtuchkin
+│  ├─ email: ashtuchkin@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/iconv-lite
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/iconv-lite/LICENSE
+├─ ignore@5.2.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kaelzhang/node-ignore
+│  ├─ publisher: kael
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ignore
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ignore/LICENSE-MIT
+├─ import-fresh@3.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/import-fresh
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/import-fresh
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/import-fresh/license
+├─ imurmurhash@0.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jensyt/imurmurhash-js
+│  ├─ publisher: Jens Taylor
+│  ├─ email: jensyt@gmail.com
+│  ├─ url: https://github.com/homebrewing
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/imurmurhash
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/imurmurhash/README.md
+├─ inflight@1.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/inflight
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/inflight
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/inflight/LICENSE
+├─ inherits@2.0.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/inherits
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/inherits
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/inherits/LICENSE
+├─ inspectable@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/negezor/inspectable
+│  ├─ publisher: Vladlen
+│  ├─ email: negezor@gmail.com
+│  ├─ url: Negezor
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/inspectable
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/inspectable/LICENSE
+├─ inversify@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inversify/InversifyJS
+│  ├─ publisher: Remo H. Jansen
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/inversify
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/inversify/LICENSE
+├─ ipaddr.js@1.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/whitequark/ipaddr.js
+│  ├─ publisher: whitequark
+│  ├─ email: whitequark@whitequark.org
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ipaddr.js
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ipaddr.js/LICENSE
+├─ is-builtin-module@3.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-builtin-module
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-builtin-module
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-builtin-module/license
+├─ is-core-module@2.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/is-core-module
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-core-module
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-core-module/LICENSE
+├─ is-extglob@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-extglob
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-extglob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-extglob/LICENSE
+├─ is-fullwidth-code-point@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-fullwidth-code-point
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-fullwidth-code-point/license
+├─ is-glob@4.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/is-glob
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-glob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-glob/LICENSE
+├─ is-module@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/is-module
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-module
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-module/README.md
+├─ is-number@7.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-number
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-number
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-number/LICENSE
+├─ is-path-inside@3.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-path-inside
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-path-inside
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-path-inside/license
+├─ is-plain-object@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-plain-object
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/is-plain-object
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/is-plain-object/LICENSE
+├─ isexe@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/isexe
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/isexe
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/isexe/LICENSE
+├─ jackspeak@2.3.3
+│  ├─ licenses: BlueOak-1.0.0
+│  ├─ repository: https://github.com/isaacs/jackspeak
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/jackspeak
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/jackspeak/LICENSE.md
+├─ js-xxhash@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Jason3S/xxhash
+│  ├─ publisher: Jason Dent
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/js-xxhash
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/js-xxhash/LICENSE
+├─ js-yaml@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodeca/js-yaml
+│  ├─ publisher: Vladimir Zapparov
+│  ├─ email: dervus.grim@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/js-yaml
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/js-yaml/LICENSE
+├─ json-buffer@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/json-buffer
+│  ├─ publisher: Dominic Tarr
+│  ├─ email: dominic.tarr@gmail.com
+│  ├─ url: http://dominictarr.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/json-buffer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/json-buffer/LICENSE
+├─ json-schema-traverse@0.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/json-schema-traverse
+│  ├─ publisher: Evgeny Poberezkin
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/json-schema-traverse
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/json-schema-traverse/LICENSE
+├─ json-stable-stringify-without-jsonify@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/samn/json-stable-stringify
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/json-stable-stringify-without-jsonify
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/json-stable-stringify-without-jsonify/LICENSE
+├─ jsonfile@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jprichardson/node-jsonfile
+│  ├─ publisher: JP Richardson
+│  ├─ email: jprichardson@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/jsonfile
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/jsonfile/LICENSE
+├─ jsonfile@6.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jprichardson/node-jsonfile
+│  ├─ publisher: JP Richardson
+│  ├─ email: jprichardson@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/node_modules/jsonfile
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/node_modules/jsonfile/LICENSE
+├─ keyv@4.5.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jaredwray/keyv
+│  ├─ publisher: Jared Wray
+│  ├─ email: me@jaredwray.com
+│  ├─ url: http://jaredwray.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/keyv
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/keyv/README.md
+├─ keyword-extractor@0.0.25
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/michaeldelorenzo/keyword-extractor
+│  ├─ publisher: Michael De Lorenzo
+│  ├─ email: michael@delorenzodesign.com
+│  ├─ url: http://mikedelorenzo.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/keyword-extractor
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/keyword-extractor/LICENSE
+├─ levn@0.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/levn
+│  ├─ publisher: George Zahariev
+│  ├─ email: z@georgezahariev.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/levn
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/levn/LICENSE
+├─ locate-path@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/locate-path
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/locate-path
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/locate-path/license
+├─ locate-path@6.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/locate-path
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/locate-path
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/locate-path/license
+├─ lodash.merge@4.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/lodash.merge
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/lodash.merge/LICENSE
+├─ lru-cache@10.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-lru-cache
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-scurry/node_modules/lru-cache
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-scurry/node_modules/lru-cache/LICENSE
+├─ lru-cache@6.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-lru-cache
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/lru-cache
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/lru-cache/LICENSE
+├─ magic-string@0.25.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rich-harris/magic-string
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/magic-string
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/magic-string/LICENSE
+├─ magic-string@0.27.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rich-harris/magic-string
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-replace/node_modules/magic-string
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/@rollup/plugin-replace/node_modules/magic-string/LICENSE
+├─ make-dir@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/make-dir
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/make-dir
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/make-dir/license
+├─ matched@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/matched
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/matched
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/matched/LICENSE
+├─ media-typer@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/media-typer
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/media-typer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/media-typer/LICENSE
+├─ merge-descriptors@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/merge-descriptors
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/merge-descriptors
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/merge-descriptors/LICENSE
+├─ merge2@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/teambition/merge2
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/merge2
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/merge2/LICENSE
+├─ methods@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/methods
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/methods
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/methods/LICENSE
+├─ micromatch@4.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/micromatch
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/micromatch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/micromatch/LICENSE
+├─ middleware-io@2.8.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/negezor/middleware-io
+│  ├─ publisher: Vladlen
+│  ├─ email: negezor@gmail.com
+│  ├─ url: Negezor
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/middleware-io
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/middleware-io/LICENSE
+├─ mime-db@1.52.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/mime-db
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/mime-db
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/mime-db/LICENSE
+├─ mime-types@2.1.35
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/mime-types
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/mime-types
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/mime-types/LICENSE
+├─ mime@1.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/broofa/node-mime
+│  ├─ publisher: Robert Kieffer
+│  ├─ email: robert@broofa.com
+│  ├─ url: http://github.com/broofa
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/mime
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/mime/LICENSE
+├─ minimatch@3.1.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/minimatch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/minimatch/LICENSE
+├─ minimatch@9.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/node_modules/minimatch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express-handlebars/node_modules/minimatch/LICENSE
+├─ minimist@1.2.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/minimistjs/minimist
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/minimist
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/minimist/LICENSE
+├─ minipass@7.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minipass
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/minipass
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/minipass/LICENSE
+├─ ms@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zeit/ms
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/body-parser/node_modules/ms
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/body-parser/node_modules/ms/license.md
+├─ ms@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zeit/ms
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ms
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ms/license.md
+├─ ms@2.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vercel/ms
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/send/node_modules/ms
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/send/node_modules/ms/license.md
+├─ natural-compare@1.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/litejs/natural-compare-lite
+│  ├─ publisher: Lauri Rooden
+│  ├─ url: https://github.com/litejs/natural-compare-lite
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/natural-compare
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/natural-compare/README.md
+├─ negotiator@0.6.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/negotiator
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/negotiator
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/negotiator/LICENSE
+├─ neo-async@2.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/suguru03/neo-async
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/neo-async
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/neo-async/LICENSE
+├─ node-domexception@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jimmywarting/node-domexception
+│  ├─ publisher: Jimmy Wärting
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/node-domexception
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/node-domexception/LICENSE
+├─ node-fetch@2.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/bitinn/node-fetch
+│  ├─ publisher: David Frank
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/node-fetch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/node-fetch/LICENSE.md
+├─ node-fetch@3.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/node-fetch/node-fetch
+│  ├─ publisher: David Frank
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/vk-io/node_modules/node-fetch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/vk-io/node_modules/node-fetch/LICENSE.md
+├─ object-inspect@1.12.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/object-inspect
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/object-inspect
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/object-inspect/LICENSE
+├─ on-finished@2.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/on-finished
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/on-finished
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/on-finished/LICENSE
+├─ once@1.4.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/once
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/once
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/once/LICENSE
+├─ optionator@0.9.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/optionator
+│  ├─ publisher: George Zahariev
+│  ├─ email: z@georgezahariev.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/optionator
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/optionator/LICENSE
+├─ p-limit@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-limit
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/p-limit
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/p-limit/license
+├─ p-limit@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-limit
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/p-limit
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/p-limit/license
+├─ p-locate@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-locate
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/p-locate
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/node_modules/p-locate/license
+├─ p-locate@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-locate
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/p-locate
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/p-locate/license
+├─ p-try@2.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-try
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/p-try
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/p-try/license
+├─ parent-module@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/parent-module
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/parent-module
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/parent-module/license
+├─ parseurl@1.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/parseurl
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/parseurl
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/parseurl/LICENSE
+├─ path-exists@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-exists
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-exists
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-exists/license
+├─ path-is-absolute@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-is-absolute
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-is-absolute
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-is-absolute/license
+├─ path-key@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-key
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-key
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-key/license
+├─ path-parse@1.0.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jbgutierrez/path-parse
+│  ├─ publisher: Javier Blanco
+│  ├─ email: http://jbgutierrez.info
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-parse
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-parse/LICENSE
+├─ path-scurry@1.10.1
+│  ├─ licenses: BlueOak-1.0.0
+│  ├─ repository: https://github.com/isaacs/path-scurry
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: https://blog.izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-scurry
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-scurry/LICENSE.md
+├─ path-to-regexp@0.1.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/path-to-regexp
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-to-regexp
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-to-regexp/LICENSE
+├─ path-type@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-type
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/path-type
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/path-type/license
+├─ picomatch@2.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/picomatch
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/picomatch
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/picomatch/LICENSE
+├─ pkg-dir@4.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/pkg-dir
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/pkg-dir
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/pkg-dir/license
+├─ prelude-ls@1.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/prelude-ls
+│  ├─ publisher: George Zahariev
+│  ├─ email: z@georgezahariev.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/prelude-ls
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/prelude-ls/LICENSE
+├─ prettier@3.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/prettier/prettier
+│  ├─ publisher: James Long
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/prettier
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/prettier/LICENSE
+├─ prisma@5.2.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/prisma/prisma
+│  ├─ publisher: Tim Suchanek
+│  ├─ email: suchanek@prisma.io
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/prisma
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/prisma/LICENSE
+├─ proxy-addr@2.0.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/proxy-addr
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/proxy-addr
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/proxy-addr/LICENSE
+├─ punycode@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/punycode.js
+│  ├─ publisher: Mathias Bynens
+│  ├─ url: https://mathiasbynens.be/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/punycode
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/punycode/LICENSE-MIT.txt
+├─ qs@6.11.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/ljharb/qs
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/qs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/qs/LICENSE.md
+├─ queue-microtask@1.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/queue-microtask
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/queue-microtask
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/queue-microtask/LICENSE
+├─ randombytes@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/crypto-browserify/randombytes
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/randombytes
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/randombytes/LICENSE
+├─ range-parser@1.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/range-parser
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ url: http://tjholowaychuk.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/range-parser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/range-parser/LICENSE
+├─ raw-body@2.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/raw-body
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/express/node_modules/raw-body
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/express/node_modules/raw-body/LICENSE
+├─ raw-body@2.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/raw-body
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/raw-body
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/raw-body/LICENSE
+├─ reflect-metadata@0.1.13
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/rbuckton/reflect-metadata
+│  ├─ publisher: Ron Buckton
+│  ├─ email: ron.buckton@microsoft.com
+│  ├─ url: http://github.com/rbuckton
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/reflect-metadata
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/reflect-metadata/LICENSE
+├─ resolve-from@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/resolve-from
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/resolve-from
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/resolve-from/license
+├─ resolve@1.22.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/browserify/resolve
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/resolve
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/resolve/LICENSE
+├─ reusify@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mcollina/reusify
+│  ├─ publisher: Matteo Collina
+│  ├─ email: hello@matteocollina.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/reusify
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/reusify/LICENSE
+├─ rimraf@3.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/rimraf
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/flat-cache/node_modules/rimraf
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/flat-cache/node_modules/rimraf/LICENSE
+├─ rimraf@5.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/rimraf
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rimraf
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rimraf/LICENSE
+├─ rollup-plugin-copy@3.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vladshcherbin/rollup-plugin-copy
+│  ├─ publisher: Vlad Shcherbin
+│  ├─ email: vlad.shcherbin@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-copy
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-copy/readme.md
+├─ rollup-plugin-dotenv@0.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Andarist/rollup-plugin-dotenv
+│  ├─ publisher: Mateusz Burzyński
+│  ├─ email: mateuszburzynski@gmail.com
+│  ├─ url: https://github.com/Andarist
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-dotenv
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-dotenv/README.md
+├─ rollup-plugin-ignore@1.0.10
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/proteriax/rollup-plugin-ignore
+│  ├─ publisher: proteriax
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-ignore
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-ignore/LICENSE
+├─ rollup-plugin-multi-input@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/alfredosalzillo/rollup-plugin-multi-input
+│  ├─ publisher: alfredo salzillo
+│  ├─ email: alfredo.salzillo@virgilio.it
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-multi-input
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-multi-input/LICENSE
+├─ rollup-plugin-preserve-shebang@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/developit/rollup-plugin-preserve-shebang
+│  ├─ publisher: Jason Miller
+│  ├─ email: jason@developit.ca
+│  ├─ url: http://jasonformat.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-preserve-shebang
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-preserve-shebang/README.md
+├─ rollup-plugin-typescript2@0.35.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ezolenko/rollup-plugin-typescript2
+│  ├─ publisher: @ezolenko
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/LICENSE
+├─ rollup@3.29.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rollup/rollup
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup/LICENSE.md
+├─ run-parallel@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/run-parallel
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/run-parallel
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/run-parallel/LICENSE
+├─ safe-buffer@5.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/safe-buffer
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/safe-buffer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/safe-buffer/LICENSE
+├─ safer-buffer@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ChALkeR/safer-buffer
+│  ├─ publisher: Nikita Skovoroda
+│  ├─ email: chalkerx@gmail.com
+│  ├─ url: https://github.com/ChALkeR
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/safer-buffer
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/safer-buffer/LICENSE
+├─ semver@6.3.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ publisher: GitHub Inc.
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/make-dir/node_modules/semver
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/make-dir/node_modules/semver/LICENSE
+├─ semver@7.5.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ publisher: GitHub Inc.
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/semver
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/semver/LICENSE
+├─ send@0.18.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/send
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/send
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/send/LICENSE
+├─ serialize-javascript@6.0.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/yahoo/serialize-javascript
+│  ├─ publisher: Eric Ferraiuolo
+│  ├─ email: edf@ericf.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/serialize-javascript
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/serialize-javascript/LICENSE
+├─ serve-static@1.15.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/serve-static
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/serve-static
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/serve-static/LICENSE
+├─ setprototypeof@1.2.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/wesleytodd/setprototypeof
+│  ├─ publisher: Wes Todd
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/setprototypeof
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/setprototypeof/LICENSE
+├─ shebang-command@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kevva/shebang-command
+│  ├─ publisher: Kevin Mårtensson
+│  ├─ email: kevinmartensson@gmail.com
+│  ├─ url: github.com/kevva
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/shebang-command
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/shebang-command/license
+├─ shebang-regex@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/shebang-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/shebang-regex
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/shebang-regex/license
+├─ side-channel@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/side-channel
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/side-channel
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/side-channel/LICENSE
+├─ signal-exit@4.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/tapjs/signal-exit
+│  ├─ publisher: Ben Coe
+│  ├─ email: ben@npmjs.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/signal-exit
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/signal-exit/LICENSE.txt
+├─ slash@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/slash
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/slash
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/slash/license
+├─ smob@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Tada5hi/smob
+│  ├─ publisher: Peter Placzek
+│  ├─ email: contact@tada5hi.net
+│  ├─ url: https://github.com/tada5hi
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/smob
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/smob/LICENSE
+├─ source-map-support@0.5.21
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/evanw/node-source-map-support
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/source-map-support
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/source-map-support/LICENSE.md
+├─ source-map@0.6.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mozilla/source-map
+│  ├─ publisher: Nick Fitzgerald
+│  ├─ email: nfitzgerald@mozilla.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/source-map
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/source-map/LICENSE
+├─ sourcemap-codec@1.4.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Rich-Harris/sourcemap-codec
+│  ├─ publisher: Rich Harris
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/sourcemap-codec
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/sourcemap-codec/LICENSE
+├─ statuses@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/statuses
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/statuses
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/statuses/LICENSE
+├─ string-width@4.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/string-width-cjs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/string-width-cjs/license
+├─ string-width@5.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/string-width
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/string-width/license
+├─ strip-ansi@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/strip-ansi
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/strip-ansi/license
+├─ strip-ansi@7.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/string-width/node_modules/strip-ansi
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/string-width/node_modules/strip-ansi/license
+├─ strip-json-comments@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-json-comments
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/strip-json-comments
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/strip-json-comments/license
+├─ supports-color@7.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/supports-color
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/supports-color/license
+├─ supports-preserve-symlinks-flag@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/node-supports-preserve-symlinks-flag
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/supports-preserve-symlinks-flag
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/supports-preserve-symlinks-flag/LICENSE
+├─ syntek-metrika@1.0.0
+│  ├─ licenses: ISC
+│  ├─ path: /home/maxqwars/Desktop/trends
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/README.md
+├─ terser@5.20.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/terser/terser
+│  ├─ publisher: Mihai Bazon
+│  ├─ email: mihai.bazon@gmail.com
+│  ├─ url: http://lisperator.net/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/terser
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/terser/LICENSE
+├─ text-table@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/text-table
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/text-table
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/text-table/LICENSE
+├─ to-regex-range@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/to-regex-range
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/to-regex-range
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/to-regex-range/LICENSE
+├─ toidentifier@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/toidentifier
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/toidentifier
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/toidentifier/LICENSE
+├─ tr46@0.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Sebmaster/tr46.js
+│  ├─ publisher: Sebastian Mayr
+│  ├─ email: npm@smayr.name
+│  └─ path: /home/maxqwars/Desktop/trends/node_modules/tr46
+├─ ts-api-utils@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/JoshuaKGoldberg/ts-api-utils
+│  ├─ publisher: Josh Goldberg
+│  ├─ email: npm@joshuakgoldberg.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/ts-api-utils
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/ts-api-utils/LICENSE.md
+├─ tslib@2.6.2
+│  ├─ licenses: 0BSD
+│  ├─ repository: https://github.com/Microsoft/tslib
+│  ├─ publisher: Microsoft Corp.
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/tslib
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/tslib/LICENSE.txt
+├─ type-check@0.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/type-check
+│  ├─ publisher: George Zahariev
+│  ├─ email: z@georgezahariev.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/type-check
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/type-check/LICENSE
+├─ type-fest@0.20.2
+│  ├─ licenses: (MIT OR CC0-1.0)
+│  ├─ repository: https://github.com/sindresorhus/type-fest
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/type-fest
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/type-fest/license
+├─ type-is@1.6.18
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/type-is
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/type-is
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/type-is/LICENSE
+├─ typescript@5.2.2
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/Microsoft/TypeScript
+│  ├─ publisher: Microsoft Corp.
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/typescript
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/typescript/LICENSE.txt
+├─ uglify-js@3.17.4
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/mishoo/UglifyJS
+│  ├─ publisher: Mihai Bazon
+│  ├─ email: mihai.bazon@gmail.com
+│  ├─ url: http://lisperator.net/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/uglify-js
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/uglify-js/LICENSE
+├─ universalify@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/RyanZim/universalify
+│  ├─ publisher: Ryan Zimmerman
+│  ├─ email: opensrc@ryanzim.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/universalify
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/universalify/LICENSE
+├─ universalify@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/RyanZim/universalify
+│  ├─ publisher: Ryan Zimmerman
+│  ├─ email: opensrc@ryanzim.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/node_modules/universalify
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/rollup-plugin-typescript2/node_modules/universalify/LICENSE
+├─ unpipe@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/unpipe
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/unpipe
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/unpipe/LICENSE
+├─ uri-js@4.4.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/garycourt/uri-js
+│  ├─ publisher: Gary Court
+│  ├─ email: gary.court@gmail.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/uri-js
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/uri-js/LICENSE
+├─ utils-merge@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jaredhanson/utils-merge
+│  ├─ publisher: Jared Hanson
+│  ├─ email: jaredhanson@gmail.com
+│  ├─ url: http://www.jaredhanson.net/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/utils-merge
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/utils-merge/LICENSE
+├─ vary@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/vary
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/vary
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/vary/LICENSE
+├─ vk-io@4.8.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/negezor/vk-io
+│  ├─ publisher: Vladlen
+│  ├─ email: negezor@gmail.com
+│  ├─ url: Negezor
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/vk-io
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/vk-io/README.md
+├─ web-streams-polyfill@3.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/MattiasBuelens/web-streams-polyfill
+│  ├─ publisher: Mattias Buelens
+│  ├─ email: mattias@buelens.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/fetch-blob/node_modules/web-streams-polyfill
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/fetch-blob/node_modules/web-streams-polyfill/LICENSE
+├─ web-streams-polyfill@4.0.0-beta.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/MattiasBuelens/web-streams-polyfill
+│  ├─ publisher: Mattias Buelens
+│  ├─ email: mattias@buelens.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/web-streams-polyfill
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/web-streams-polyfill/LICENSE
+├─ webidl-conversions@3.0.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/jsdom/webidl-conversions
+│  ├─ publisher: Domenic Denicola
+│  ├─ email: d@domenic.me
+│  ├─ url: https://domenic.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/webidl-conversions
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/webidl-conversions/LICENSE.md
+├─ whatwg-url@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jsdom/whatwg-url
+│  ├─ publisher: Sebastian Mayr
+│  ├─ email: github@smayr.name
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/whatwg-url
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/whatwg-url/LICENSE.txt
+├─ which@2.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-which
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/which
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/which/LICENSE
+├─ wordwrap@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-wordwrap
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/wordwrap
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/wordwrap/LICENSE
+├─ wrap-ansi@7.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/wrap-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/wrap-ansi-cjs
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/wrap-ansi-cjs/license
+├─ wrap-ansi@8.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/wrap-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/wrap-ansi
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/wrap-ansi/license
+├─ wrappy@1.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/wrappy
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/wrappy
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/wrappy/LICENSE
+├─ yallist@4.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/yallist
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /home/maxqwars/Desktop/trends/node_modules/yallist
+│  └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/yallist/LICENSE
+└─ yocto-queue@0.1.0
+   ├─ licenses: MIT
+   ├─ repository: https://github.com/sindresorhus/yocto-queue
+   ├─ publisher: Sindre Sorhus
+   ├─ email: sindresorhus@gmail.com
+   ├─ url: https://sindresorhus.com
+   ├─ path: /home/maxqwars/Desktop/trends/node_modules/yocto-queue
+   └─ licenseFile: /home/maxqwars/Desktop/trends/node_modules/yocto-queue/license
+

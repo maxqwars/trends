@@ -13,7 +13,7 @@ import { ITextTools, TextTools } from "./TextTools";
 import { ITrends, Trends } from "./Trends";
 import { IVKComments, VKComments } from "./VKComments";
 import { IVKServiceAPI, VKServiceAPI } from "./VKServiceAPI";
-import { VKTargets } from "./VKTargets";
+import { IVKTargets, VKTargets } from "./VKTargets";
 import { IVKUserAPI, VKUserAPI } from "./VKUserAPI";
 import { IVKUsers, VKUsers } from "./VKUsers";
 import { IWorkerPool, WorkerPool } from "./WorkerPool";
