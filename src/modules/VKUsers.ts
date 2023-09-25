@@ -11,6 +11,7 @@ type CreateUserDto = {
 };
 export interface IVKUsers {
   createIfNotExist(dto: CreateUserDto): Promise<VkUser>;
+  isAdded(id: number): Promise<Boolean>;
 }
 
 @injectable()
@@ -19,6 +20,11 @@ export class VKUsers implements IVKUsers {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+
+  async isAdded(id: number): Promise<Boolean> {
+    const user = await this._client.vkUser.findFirst({ where: { id } });
+    return Boolean(user);
   }
 
   async createIfNotExist(dto: CreateUserDto): Promise<{

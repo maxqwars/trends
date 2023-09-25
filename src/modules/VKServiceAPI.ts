@@ -46,6 +46,12 @@ export interface IVKServiceAPI {
     count: number,
     depth: number
   ): Generator<Promise<WallGetResponse>, void, unknown>;
+  commentsCount(posId: number, ownerId: number): Promise<number>;
+  createCommentsReader(
+    postId: number,
+    ownerId: number,
+    count: number
+  ): Generator<Promise<WallGetCommentResponse>, void, unknown>;
 }
 
 @injectable()
@@ -63,6 +69,51 @@ export class VKServiceAPI implements IVKServiceAPI {
 
     const vk = new VK({ token: this._env.VK_SERVICE_TOKEN });
     this._api = vk.api;
+  }
+
+  *createCommentsReader(
+    postId: number,
+    ownerId: number,
+    count: number
+  ): Generator<Promise<WallGetCommentResponse>, void, unknown> {
+    const offset = 100;
+    let processed = 0;
+    let rest = count;
+
+    while (rest !== 0) {
+      if (rest <= offset) {
+        yield this._api.wall.getComments({
+          owner_id: ownerId,
+          post_id: postId,
+          offset: processed,
+          count: rest
+        });
+
+        rest = 0;
+      }
+
+      if (processed < count && rest > offset) {
+        yield this._api.wall.getComments({
+          owner_id: ownerId,
+          post_id: postId,
+          count: offset,
+          offset: processed
+        });
+
+        processed = processed + offset;
+        rest = rest - offset;
+      }
+    }
+  }
+
+  async commentsCount(posId: number, ownerId: number): Promise<number> {
+    const { count } = await this._api.wall.getComments({
+      count: 0,
+      owner_id: ownerId,
+      post_id: posId
+    });
+
+    return count;
   }
 
   *createWallReader(

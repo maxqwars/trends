@@ -27,6 +27,10 @@ export interface IVKTargets {
   targetsCount(): Promise<number>;
 
   reader(take: number, skip: number): Promise<VkTarget>;
+  isUserAssociatedWithTarget(
+    userId: number,
+    targetId: number
+  ): Promise<boolean>;
 }
 
 @injectable()
@@ -35,6 +39,20 @@ export class VKTargets implements IVKTargets {
 
   public constructor() {
     this._client = new PrismaClient();
+  }
+
+  async isUserAssociatedWithTarget(
+    userId: number,
+    targetId: number
+  ): Promise<boolean> {
+    const candidate = await this._client.vkTargetAssociatedUser.findFirst({
+      where: {
+        vkUserId: userId,
+        vkTargetId: targetId
+      }
+    });
+
+    return Boolean(candidate);
   }
 
   reader(
