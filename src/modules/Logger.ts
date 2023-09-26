@@ -11,6 +11,8 @@ import dayjs from "dayjs";
 
 export type LEVELS = "all" | "info" | "warn" | "debug" | "error";
 
+const LEVEL_MAPPING = ["all", "debug", "warn", "info", "error"];
+
 export interface ILogger {
   level: LEVELS;
   setLogLevel(level: LEVELS);
@@ -30,6 +32,8 @@ export class Logger implements ILogger {
   }
 
   info(msg: string) {
+    if (LEVEL_MAPPING.indexOf(this._level) === 3) {
+    }
     console.log(
       `${dayjs(Date.now()).format("DD-MM-YY HH:ss:mm")} INFO: ${greenBright(
         msg
@@ -38,6 +42,9 @@ export class Logger implements ILogger {
   }
 
   debug(msg: string) {
+    if (LEVEL_MAPPING.indexOf(this._level) === 1) {
+    }
+
     console.log(
       `${dayjs(Date.now()).format("DD-MM-YY HH:ss:mm")} DEBUG: ${blueBright(
         msg
@@ -54,6 +61,8 @@ export class Logger implements ILogger {
   }
 
   warn(msg: string) {
+    if (LEVEL_MAPPING.indexOf(this._level) === 2) {
+    }
     console.log(
       `${dayjs(Date.now()).format("DD-MM-YY HH:ss:mm")} WARN: ${yellowBright(
         msg

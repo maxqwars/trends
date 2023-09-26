@@ -151,13 +151,6 @@ export class VKServiceAPI implements IVKServiceAPI {
         processed = processed + rest;
         rest = 0;
       }
-
-      this._logger.debug(`WALL_READER: ID: ${id}`);
-      this._logger.debug(`WALL_READER: TYPE: ${type}`);
-      this._logger.debug(`WALL_READER: COUNT: ${count}`);
-      this._logger.debug(`WALL_READER: DEPTH: ${depth}`);
-      this._logger.debug(`WALL_READER: PROC: ${processed}`);
-      this._logger.debug(`WALL_READER: REST: ${rest}`);
     }
   }
 

@@ -1,4 +1,9 @@
-import { PrismaClient, Trend } from "@prisma/client";
+import {
+  PrismaClient,
+  Trend,
+  TrendExcludeKeyword,
+  TrendIncludeKeyword
+} from "@prisma/client";
 import { inject, injectable } from "inversify";
 import "reflect-metadata";
 import { DI_INDX } from "../constants/DI_INDX";
@@ -12,7 +17,26 @@ export interface ITrends {
     excludeKeywords: string[]
   ): Promise<Trend>;
 
-  remove(name: string): Promise<void>
+  remove(name: string): Promise<void>;
+
+  returnAllTrendsContainedIncludeWord(
+    keywordsUuid: string[]
+  ): Promise<Array<TrendIncludeKeyword[]>>;
+
+  returnAllTrendsContainedExcludeWord(
+    keywordsUuid: string[]
+  ): Promise<Array<TrendExcludeKeyword[]>>;
+
+  returnTrendExcludeKeywords(trendId: number): Promise<TrendExcludeKeyword[]>;
+
+  findTrendExcludeKeywords(
+    trendId: number,
+    keywordsUuids: string[]
+  ): Promise<TrendExcludeKeyword[]>;
+
+  returnTrendsContainsSelectedKeywordsAsInclude(
+    keywordsUuids: string[]
+  ): Promise<TrendIncludeKeyword[]>;
 }
 
 @injectable()
@@ -28,7 +52,70 @@ export class Trends implements ITrends {
   constructor() {
     this._client = new PrismaClient();
   }
-  
+
+  async returnTrendsContainsSelectedKeywordsAsInclude(
+    keywordsUuids: string[]
+  ): Promise<{ id: number; keywordUuid: string; trendId: number }[]> {
+    return await this._client.trendIncludeKeyword.findMany({
+      where: {
+        keywordUuid: { in: keywordsUuids }
+      }
+    });
+  }
+
+  async findTrendExcludeKeywords(
+    trendId: number,
+    keywordsUuids: string[]
+  ): Promise<{ id: number; keywordUuid: string; trendId: number }[]> {
+    // TODO: Change `findMany` to `count`
+    return await this._client.trendExcludeKeyword.findMany({
+      where: {
+        trendId,
+        keywordUuid: { in: keywordsUuids }
+      }
+    });
+  }
+
+  async returnTrendExcludeKeywords(
+    trendId: number
+  ): Promise<{ id: number; keywordUuid: string; trendId: number }[]> {
+    return await this._client.trendExcludeKeyword.findMany({
+      where: { trendId }
+    });
+  }
+
+  async returnAllTrendsContainedIncludeWord(
+    keywordsUuid: string[]
+  ): Promise<{ id: number; keywordUuid: string; trendId: number }[][]> {
+    const result: Array<TrendIncludeKeyword[]> = [];
+
+    for (const uuid of keywordsUuid) {
+      const record = await this._client.trendIncludeKeyword.findMany({
+        where: { keywordUuid: uuid }
+      });
+
+      if (record.length > 0) result.push(record);
+    }
+
+    return result;
+  }
+
+  async returnAllTrendsContainedExcludeWord(
+    keywordsUuid: string[]
+  ): Promise<{ id: number; keywordUuid: string; trendId: number }[][]> {
+    const result: Array<TrendExcludeKeyword[]> = [];
+
+    for (const uuid of keywordsUuid) {
+      const record = await this._client.trendExcludeKeyword.findMany({
+        where: { keywordUuid: uuid }
+      });
+
+      if (record.length > 0) result.push(record);
+    }
+
+    return result;
+  }
+
   async remove(name: string): Promise<void> {
     throw new Error("Method not implemented.");
   }

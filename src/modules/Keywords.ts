@@ -28,6 +28,8 @@ export interface IKeywords {
   removeAssociatedWithTrendKeywords(trendId: number): Promise<number>;
 
   removeTrendAssociations(trendId: number): Promise<void>;
+
+  getRegisteredKeywords(keywordsUuids: string[]): Promise<Keyword[]>;
 }
 
 @injectable()
@@ -39,6 +41,14 @@ export class Keywords implements IKeywords {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+
+  async getRegisteredKeywords(
+    keywordsUuids: string[]
+  ): Promise<{ uuid: string; word: string }[]> {
+    return await this._client.keyword.findMany({
+      where: { uuid: { in: keywordsUuids } }
+    });
   }
 
   async getTrendAssociatedKeywordsCount(trendId: number): Promise<number> {

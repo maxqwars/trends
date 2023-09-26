@@ -40,7 +40,21 @@ export class ObserverModel {
     const postsCount = await this._vkServiceApi.postsCount(id, type);
     const limit = postsCount < 100 ? postsCount : depth;
 
+    if (!id) return;
+
     return new Promise((resolve, reject) => {
+      try {
+        const wallReader = this._vkServiceApi.createWallReader(
+          id,
+          type,
+          postsCount,
+          limit
+        );
+      } catch (e) {
+        this._logger.error(e.message);
+        resolve(true);
+      }
+
       const wallReader = this._vkServiceApi.createWallReader(
         id,
         type,
@@ -48,7 +62,7 @@ export class ObserverModel {
         limit
       );
 
-      const timing = 100
+      const timing = 280;
 
       const interval = setInterval(async () => {
         if (this._workersPool.freeWorkersCount > 0) {
@@ -78,24 +92,6 @@ export class ObserverModel {
                 }
               }
             );
-
-            // postsPromise.then(({ items: posts }) => {
-            // this._workersPool.execute<VKObserverWorkerData>(
-            //   {
-            //     posts,
-            //     targetId: id,
-            //     contentType: contentType
-            //   },
-            //   (error, result) => {
-            //     this._logger.info(String(result));
-
-            //     if (error) {
-            //       this._logger.error(error.message);
-            //       reject(error);
-            //     }
-            //   }
-            // );
-            // });
           }
         }
       }, timing);
@@ -125,20 +121,22 @@ export class ObserverModel {
     this._workersPool.spawn();
 
     /*  */
-    while (true) {
-      for (let i = 0; i < targetsCount; i++) {
-        const { id, type } = await this._vkTargets.reader(1, i);
-        if (type === "USER") continue;
-        await this._runTaskInVKObserverPool(
-          id,
-          type,
-          contentType,
-          Number(depth)
-        );
-      }
+    // while (true) {
+      
+    // }
+
+    for (let i = 0; i < targetsCount; i++) {
+      const { id, type } = await this._vkTargets.reader(1, i);
+      if (type === "USER") continue;
+      await this._runTaskInVKObserverPool(
+        id,
+        type,
+        contentType,
+        Number(depth)
+      );
     }
 
     /* Terminate workers */
-    // this._workersPool.terminate();
+    this._workersPool.close();
   }
 }

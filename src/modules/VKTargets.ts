@@ -3,6 +3,8 @@ import {
   PrismaClient,
   VK_TARGET_TYPE,
   VkTarget,
+  VkTargetAssociatedKeyword,
+  VkTargetAssociatedTrend,
   VkTargetAssociatedUser
 } from "@prisma/client";
 import { injectable } from "inversify";
@@ -31,6 +33,16 @@ export interface IVKTargets {
     userId: number,
     targetId: number
   ): Promise<boolean>;
+
+  associateTargetWithTrend(
+    targetId: number,
+    trendId: number
+  ): Promise<VkTargetAssociatedTrend>;
+
+  associateTargetWithKeywords(
+    targetId: number,
+    keywordsUuids: string[]
+  ): Promise<VkTargetAssociatedKeyword[]>;
 }
 
 @injectable()
@@ -39,6 +51,58 @@ export class VKTargets implements IVKTargets {
 
   public constructor() {
     this._client = new PrismaClient();
+  }
+
+  async associateTargetWithKeywords(
+    targetId: number,
+    keywordsUuids: string[]
+  ): Promise<{ id: number; vkTargetId: number; keywordUuid: string }[]> {
+    const createdRecords: VkTargetAssociatedKeyword[] = [];
+
+    for (const uuid of keywordsUuids) {
+      const candidate = await this._client.vkTargetAssociatedKeyword.findFirst({
+        where: {
+          vkTargetId: targetId,
+          keywordUuid: uuid
+        }
+      });
+
+      if (candidate) createdRecords.push(candidate);
+
+      const createdRecord = await this._client.vkTargetAssociatedKeyword.create(
+        {
+          data: {
+            vkTargetId: targetId,
+            keywordUuid: uuid
+          }
+        }
+      );
+
+      createdRecords.push(createdRecord);
+    }
+
+    return createdRecords;
+  }
+
+  async associateTargetWithTrend(
+    targetId: number,
+    trendId: number
+  ): Promise<{ id: number; vkTargetId: number; trendId: number }> {
+    const candidate = await this._client.vkTargetAssociatedTrend.findFirst({
+      where: {
+        trendId,
+        vkTargetId: targetId
+      }
+    });
+
+    if (candidate) return candidate;
+
+    return await this._client.vkTargetAssociatedTrend.create({
+      data: {
+        trendId,
+        vkTargetId: targetId
+      }
+    });
   }
 
   async isUserAssociatedWithTarget(
