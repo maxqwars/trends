@@ -1,4 +1,3 @@
-import { IVKTargets } from "./../modules/VKTargets";
 import { parentPort } from "node:worker_threads";
 import { WallWallpostFull } from "vk-io/lib/api/schemas/objects";
 import {
@@ -9,6 +8,7 @@ import {
   ITrends,
   IVKComments,
   IVKServiceAPI,
+  IVKTargets,
   IVKUsers,
   invContainer
 } from "../modules";
@@ -96,10 +96,6 @@ async function findTrendContainedComments(posts: WallWallpostFull[]) {
         );
 
         if (!isAssociated) {
-          logger.debug(
-            `${LOG_H} Associate user ${comment.from_id} with target ${comment.owner_id}`
-          );
-
           await targets.associateUser(
             Math.abs(comment.owner_id) * 1,
             comment.from_id
@@ -125,7 +121,9 @@ async function findTrendContainedComments(posts: WallWallpostFull[]) {
           await keywordsModule.getRegisteredKeywords(keywordsUuids)
         ).map((r) => r.uuid);
 
-        logger.debug(`${comment.id} -> ${textKeywords.join(",")}`);
+        logger.debug(
+          `${comment.owner_id}_${comment.from_id}_${comment.id} contains: ${textKeywords.length} keywords`
+        );
 
         const associatedTrends =
           await trendsModule.returnTrendsContainsSelectedKeywordsAsInclude(
@@ -134,7 +132,6 @@ async function findTrendContainedComments(posts: WallWallpostFull[]) {
 
         if (associatedTrends.length === 0) continue;
 
-        console.log(associatedTrends);
         logger.info(
           `Comment have associated trends: ${associatedTrends.length}`
         );

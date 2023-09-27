@@ -1,6 +1,7 @@
 import {
   $Enums,
   PrismaClient,
+  Trend,
   VK_TARGET_TYPE,
   VkTarget,
   VkTargetAssociatedKeyword,
@@ -43,6 +44,8 @@ export interface IVKTargets {
     targetId: number,
     keywordsUuids: string[]
   ): Promise<VkTargetAssociatedKeyword[]>;
+
+  countAll(): Promise<number>;
 }
 
 @injectable()
@@ -51,6 +54,10 @@ export class VKTargets implements IVKTargets {
 
   public constructor() {
     this._client = new PrismaClient();
+  }
+
+  async countAll(): Promise<number> {
+    return await this._client.vkTarget.count();
   }
 
   async associateTargetWithKeywords(

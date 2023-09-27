@@ -10,6 +10,14 @@ import { DI_INDX } from "../constants/DI_INDX";
 import { ILogger } from "./Logger";
 import { IKeywords } from "./Keywords";
 
+type PaginationReadResult = {
+  page: number;
+  items: number;
+  itemsPerPage: number;
+  pagesCount: number;
+  trends: Trend[];
+};
+
 export interface ITrends {
   create(
     name: string,
@@ -37,6 +45,16 @@ export interface ITrends {
   returnTrendsContainsSelectedKeywordsAsInclude(
     keywordsUuids: string[]
   ): Promise<TrendIncludeKeyword[]>;
+
+  countAll(): Promise<number>;
+
+  paginationRead(
+    page: number,
+    itemsPerPage: number
+  ): Promise<PaginationReadResult>;
+
+  getTrendIncludeKeywords(trendId: number): Promise<string[]>;
+  getTrendExcludeKeywords(trendId: number): Promise<string[]>;
 }
 
 @injectable()
@@ -51,6 +69,74 @@ export class Trends implements ITrends {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+
+  async getTrendIncludeKeywords(trendId: number): Promise<string[]> {
+    const keywordsUuids = await this._client.trendIncludeKeyword.findMany({
+      where: {
+        trendId
+      }
+    });
+
+    const keywords = await this._client.keyword.findMany({
+      where: {
+        uuid: { in: keywordsUuids.map((record) => record.keywordUuid) }
+      }
+    });
+
+    return keywords.map((record) => record.word);
+  }
+
+  async getTrendExcludeKeywords(trendId: number): Promise<string[]> {
+    const keywordsUuids = await this._client.trendExcludeKeyword.findMany({
+      where: {
+        trendId
+      }
+    });
+
+    const keywords = await this._client.keyword.findMany({
+      where: {
+        uuid: { in: keywordsUuids.map((record) => record.keywordUuid) }
+      }
+    });
+
+    return keywords.map((record) => record.word);
+  }
+
+  async countAll(): Promise<number> {
+    return await this._client.trend.count();
+  }
+
+  async paginationRead(
+    page: number,
+    itemsPerPage: number
+  ): Promise<PaginationReadResult> {
+    const recordsCount = await this._client.trend.count();
+
+    const pagesCount = Math.ceil(recordsCount / itemsPerPage);
+
+    const take = itemsPerPage;
+    const skip = page > 1 ? page * itemsPerPage : 0;
+
+    const trends = await this._client.trend.findMany({
+      take,
+      skip,
+      select: {
+        id: true,
+        name: true,
+        isActive: true,
+        createdAt: true,
+        updatedAt: true
+      }
+    });
+
+    return {
+      items: recordsCount,
+      pagesCount,
+      itemsPerPage,
+      page,
+      trends
+    };
   }
 
   async returnTrendsContainsSelectedKeywordsAsInclude(

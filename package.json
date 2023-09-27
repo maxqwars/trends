@@ -57,6 +57,7 @@
     "inversify": "^6.0.1",
     "js-xxhash": "^2.0.0",
     "keyword-extractor": "^0.0.25",
+    "millify": "^6.1.0",
     "reflect-metadata": "^0.1.13",
     "tslib": "^2.6.2",
     "vk-io": "^4.8.3"

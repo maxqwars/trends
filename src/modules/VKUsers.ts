@@ -25,6 +25,8 @@ export interface IVKUsers {
     userId: number,
     keywordsUuids: string[]
   ): Promise<VkUserAssociatedKeyword[]>;
+
+  countAll(): Promise<number>;
 }
 
 @injectable()
@@ -33,6 +35,10 @@ export class VKUsers implements IVKUsers {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+
+  async countAll(): Promise<number> {
+    return await this._client.vkUser.count();
   }
 
   async associateUserWithTrend(

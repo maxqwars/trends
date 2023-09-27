@@ -20,6 +20,14 @@ type CreateCommentDto = {
   vkTargetId: number;
 };
 
+type PageReadResult = {
+  page: number;
+  pagesCount: number;
+  recordsCount: number;
+  itemsPerPage: number;
+  items: VkComment[];
+};
+
 export interface IVKComments {
   create(dto: CreateCommentDto): Promise<VkComment>;
 
@@ -32,6 +40,10 @@ export interface IVKComments {
     commentUuid: string,
     keywordsUuids: string[]
   ): Promise<VkCommentAssociatedKeyword[]>;
+
+  countAll(): Promise<number>;
+
+  pageRead(page: number, itemsPerPage: number): Promise<PageReadResult>;
 }
 
 @injectable()
@@ -43,6 +55,32 @@ export class VKComments implements IVKComments {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+
+  async pageRead(page: number, itemsPerPage: number): Promise<PageReadResult> {
+    const recordsCount = await this._client.vkComment.count();
+
+    const pagesCount = Math.ceil(recordsCount / itemsPerPage);
+
+    const take = itemsPerPage;
+    const skip = page > 1 ? page * itemsPerPage : 0;
+
+    const comments = await this._client.vkComment.findMany({
+      take,
+      skip
+    });
+
+    return {
+      page,
+      pagesCount,
+      recordsCount,
+      itemsPerPage,
+      items: comments
+    };
+  }
+
+  async countAll(): Promise<number> {
+    return await this._client.vkComment.count();
   }
 
   async associateCommentWithKeywords(

@@ -30,6 +30,8 @@ export interface IKeywords {
   removeTrendAssociations(trendId: number): Promise<void>;
 
   getRegisteredKeywords(keywordsUuids: string[]): Promise<Keyword[]>;
+
+  countAll(): Promise<number>;
 }
 
 @injectable()
@@ -41,6 +43,10 @@ export class Keywords implements IKeywords {
 
   constructor() {
     this._client = new PrismaClient();
+  }
+
+  async countAll(): Promise<number> {
+    return await this._client.keyword.count();
   }
 
   async getRegisteredKeywords(

@@ -1,1 +1,110 @@
 {{> navbar }}
+
+<section class="section mt-5">
+  <div class="container">
+    <h1>Common statistic</h1>
+
+    <div class="row g-4 mt-1">
+      <div class="col col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ trendsRecordsCount }}</h2>
+            <p class="card-text">Observe trends</p>
+            <a href="/trends/1" class="btn btn-light">Go to Trends <i class="bi bi-caret-right-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ keywordsRecordsCount }}</h2>
+            <p class="card-text">Dictionary size</p>
+            <a href="/keywords/1" class="btn btn-light">Go to keywords <i class="bi bi-caret-right-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h1>VK Statistic</h1>
+
+    <div class="row g-4 mt-1">
+      <div class="col col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ vkUsersRecordsCount }}</h2>
+            <p class="card-text">Users associated</p>
+            <a href="/vk/users/1" class="btn btn-light">View details <i class="bi bi-caret-right-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ vkTargetsRecordsCount }}</h2>
+            <p class="card-text">Targets added</p>
+            <a href="/vk/targets/1" class="btn btn-light">View details <i class="bi bi-caret-right-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ vkCommentsRecordsCount }}</h2>
+            <p class="card-text">Comments found</p>
+            <a href="/vk/comments/1" class="btn btn-light">View details <i class="bi bi-caret-right-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">0</h2>
+            <p class="card-text">Posts found</p>
+            <a href="/vk/posts/1" class="btn btn-light">View details <i class="bi bi-caret-right-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h1>⚙️ Platform</h1>
+
+    <div class="row g-4 mt-1">
+      <div class="col-2 col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ platformArch }}</h2>
+            <p class="card-text">CPU architecture</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ cpuThreads }}</h2>
+            <p class="card-text">Threads count</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ totalMem }}</h2>
+            <p class="card-text">RAM size</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 col-sm-12 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-primary">{{ platform }}</h2>
+            <p class="card-text">Operation System</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
